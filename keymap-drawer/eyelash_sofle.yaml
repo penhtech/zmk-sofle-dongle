@@ -39,7 +39,7 @@ layers:
   - T
   - N
   - S
-  - F
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - layer1
   - {t: '''', s: '"'}
   - {t: '-', s: _}
