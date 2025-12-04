@@ -39,7 +39,7 @@ layers:
   - T
   - N
   - S
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - F
   - layer1
   - {t: '''', s: '"'}
   - {t: '-', s: _}
@@ -58,7 +58,7 @@ layers:
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - $$mdi:keyboard-space$$
-  - RETURN
+  - W
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - KP NUMLOCK
   - R
