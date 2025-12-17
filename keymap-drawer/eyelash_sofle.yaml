@@ -54,9 +54,9 @@ layers:
   - V
   - '2'
   - $$mdi:volume-off$$
-  - HOME
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
+  - HOME
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', type: enter}
