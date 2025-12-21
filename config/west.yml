@@ -8,8 +8,8 @@ manifest:
       url-base: https://github.com/tokyo2006
     - name: englmaxi
       url-base: https://github.com/englmaxi
-    # - name: urob
-    #   url-base: https://github.com/urob
+    - name: urob
+      url-base: https://github.com/urob
   projects:
     - name: mario-peripheral-animation
       remote: gpeye
@@ -23,6 +23,9 @@ manifest:
       revision: micro_spi2  
     - name: zmk-dongle-display
       remote: englmaxi
+      revision: main
+    - name: zmk-auto-layer
+      remote: urob
       revision: main
     # - name: zmk-helpers
     #   remote: urob
