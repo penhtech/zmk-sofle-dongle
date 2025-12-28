@@ -11,37 +11,31 @@ manifest:
     - name: urob
       url-base: https://github.com/urob
   projects:
-    - name: mario-peripheral-animation
-      remote: gpeye
-      revision: main 
     - name: zmk
       remote: zmkfirmware
       revision: v0.3.0
       import: app/west.yml
+    - name: mario-peripheral-animation
+      remote: gpeye
+      revision: main 
     - name: prospector-zmk-module                 # <--- and these
       remote: tokyo2006                           # <---
       revision: micro_spi2  
     - name: zmk-dongle-display
       remote: englmaxi
-      revision: main
-    - name: zmk-auto-layer
-      remote: urob
-      revision: main
-    - name: zmk-helpers
-      remote: urob
-      revision: main
-    - name: zmk-tri-state
-      remote: urob
-      revision: main
 
     # ZMK modules
     - name: zmk-adaptive-key
-      path: modules/zmk/adaptive-key
+      remote: urob
+      revision: v0.3 # Match ZMK version
     - name: zmk-auto-layer
-      path: modules/zmk/auto-layer
+      remote: urob
+      revision: v0.3 # Match ZMK version
     - name: zmk-helpers
-      path: modules/zmk/helpers
+      remote: urob
+      revision: v0.3 # Match ZMK version
     - name: zmk-tri-state
-      path: modules/zmk/tri-state
+      remote: urob
+      revision: v0.3 # Match ZMK version
   self:
     path: config
