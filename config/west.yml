@@ -23,6 +23,7 @@ manifest:
       revision: micro_spi2  
     - name: zmk-dongle-display
       remote: englmaxi
+      revision: main
 
     # ZMK modules
     - name: zmk-adaptive-key
