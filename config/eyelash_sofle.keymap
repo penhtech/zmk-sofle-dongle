@@ -76,7 +76,8 @@ ZMK_HOLD_TAP(hmr,
 
 /* Combos, leader key sequences, mouse emulation */
 
-// #include "combos.dtsi" // Must be sourced after HRM-combo hack.
+#include "combos.dtsi" // Must be sourced after HRM-combo hack.
+#include "leader.dtsi"
 #include "mouse.dtsi"
 
 /* Nav cluster */
