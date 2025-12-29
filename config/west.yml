@@ -35,9 +35,9 @@ manifest:
     - name: zmk-helpers
       remote: urob
       revision: v0.3 # Match ZMK version
-    - name: zmk-leader-key
-      remote: urob
-      revision: v0.3 # Match ZMK version
+    # - name: zmk-leader-key
+    #   remote: urob
+    #   revision: v0.3 # Match ZMK version
     - name: zmk-unicode
       remote: urob
       revision: v0.3 # Match ZMK version  
