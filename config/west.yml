@@ -35,14 +35,14 @@ manifest:
     - name: zmk-helpers
       remote: urob
       revision: v0.3 # Match ZMK version
-    # - name: zmk-leader-key
-    #   remote: urob
-    #   revision: v0.3 # Match ZMK version
-    - name: zmk-unicode
+    - name: zmk-leader-key
       remote: urob
-      revision: v0.3 # Match ZMK version  
+      revision: v0.3 # Match ZMK version 
     - name: zmk-tri-state
       remote: urob
       revision: v0.3 # Match ZMK version
+    - name: zmk-unicode
+      remote: urob
+      revision: v0.3 # Match ZMK version 
   self:
     path: config
