@@ -286,6 +286,12 @@ combos:
   k: $$mdi:backspace-reverse-outline$$
   l: [LAYER0, layer1, '3']
 - p: [34, 35]
+  k: (
+  l: [LAYER0, '3']
+- p: [35, 36]
+  k: )
+  l: [LAYER0, '3']
+- p: [34, 35]
   k: <
   l: [layer1]
 - p: [35, 36]
