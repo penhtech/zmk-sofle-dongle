@@ -22,6 +22,8 @@
 
 #include "../include/zmk-helpers/key-labels/eyelashsofle.h"
 // #include <zmk-helpers/key-labels/eyelashsofle.h> // Requires zmk-helpers module.
+#include "home_row_mods.dtsi"
+
 
 #define COMBO_TERM_FAST 18
 #define COMBO_TERM_SLOW 30
