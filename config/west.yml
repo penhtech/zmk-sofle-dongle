@@ -40,7 +40,7 @@ manifest:
       revision: v0.3 # Match ZMK version 
     - name: zmk-tri-state
       remote: urob
-      revision: v0.3 # Match ZMK version
+      revision: vmain # Match ZMK version
     - name: zmk-unicode
       remote: urob
       revision: v0.3 # Match ZMK version 
