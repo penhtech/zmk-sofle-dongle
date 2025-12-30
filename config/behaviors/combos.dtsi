@@ -22,14 +22,13 @@
 
 #include "../include/zmk-helpers/key-labels/eyelashsofle.h"
 // #include <zmk-helpers/key-labels/eyelashsofle.h> // Requires zmk-helpers module.
-#include "home_row_mods.dtsi"
-
 
 #define COMBO_TERM_FAST 18
 #define COMBO_TERM_SLOW 30
 
 #define COMBO_IDLE_FAST 150
 #define COMBO_IDLE_SLOW 50
+
 
 /*  --------------  */
 /*        Misc      */
@@ -76,4 +75,3 @@ ZMK_COMBO(cb_del,        &kp DEL,      RT3 RT4,      ALL,           COMBO_TERM_F
 
 // Enter
 ZMK_COMBO(cb_enter,      &kp ENTER,    RM3 RM4,      ALL,           COMBO_TERM_FAST, COMBO_IDLE_FAST)
-
