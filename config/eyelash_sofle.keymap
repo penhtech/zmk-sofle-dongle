@@ -63,10 +63,11 @@ ZMK_TRI_STATE(
         <LT1 LT2 LH0 LH1 RT1 RT2 RT3 RM0 RM1 RM2 RM3 RM4 RB1 RB2 RB3 RH0 RH1>;
     ignored-layers = <MOUSE NAV FN>;)
 
+
+#include "behaviors/home_row_mods.dtsi" 
 #include "behaviors/combos.dtsi" // Must be sourced after HRM-combo hack.
 #include "behaviors/num_word.dtsi" 
 #include "behaviors/nav_word.dtsi" 
-#include "behaviors/home_row_mods.dtsi" 
 #include "behaviors/magic_shift.dtsi"
 #include "behaviors/super_copy.dtsi"
 
