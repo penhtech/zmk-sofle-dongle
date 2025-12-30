@@ -11,10 +11,9 @@
 #include <dt-bindings/zmk/behaviors.h>
 #include <behaviors/num_word.dtsi> // Requires zmk-auto-layer module.
 #include <behaviors/unicode.dtsi> // Requires zmk-unicode module.
-// #include "include/zmk-helpers/helper.h"
-#include <zmk-helpers/helper.h> // Requires zmk-helpers module.
+// #include <zmk-helpers/helper.h> // Requires zmk-helpers module.
+#include "include/zmk-helpers/helper.h"
 #include "include/zmk-helpers/key-labels/eyelashsofle.h"
-#include "leader.dtsi"
 
 // #define ZMK_POINTING_DEFAULT_MOVE_VAL 1200  // 600
 // #define ZMK_POINTING_DEFAULT_SCRL_VAL 35    // 10
@@ -76,6 +75,7 @@ MAKE_HRM(hmr, &kp, &kp, KEYS_L THUMBS) // Right-hand HRMs.
 /* Custom Behaviors */
 
 #include "combos.dtsi" // Must be sourced after HRM-combo hack.
+#include "leader.dtsi"
 #include "mouse.dtsi"
 
 /* Nav cluster */
