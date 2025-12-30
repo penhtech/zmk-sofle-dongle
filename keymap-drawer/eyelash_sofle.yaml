@@ -270,12 +270,6 @@ combos:
 - p: [28, 29]
   k: '&hml LS(LALT)TAB'
   l: [LAYER0, layer1, '3']
-- p: [29, 30]
-  k: {t: '&leader', h: 'Sft+$$mdi:apple-keyboard-control$$'}
-  l: [LAYER0, layer1, '3']
-- p: [28, 29, 30]
-  k: {t: '&leader_sft', h: '$$mdi:star-three-points$$'}
-  l: [LAYER0, layer1, '3']
 - p: [41, 43]
   k: Ctl+X
   l: [LAYER0, layer1, '3']
