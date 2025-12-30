@@ -286,12 +286,6 @@ combos:
   k: $$mdi:backspace-reverse-outline$$
   l: [LAYER0, layer1, '3']
 - p: [34, 35]
-  k: {t: '&lpar_lt', h: 'Sft+$$mdi:apple-keyboard-control$$'}
-  l: [LAYER0, '3']
-- p: [35, 36]
-  k: {t: '&rpar_gt', h: 'Sft+$$mdi:apple-keyboard-option$$'}
-  l: [LAYER0, '3']
-- p: [34, 35]
   k: <
   l: [layer1]
 - p: [35, 36]
