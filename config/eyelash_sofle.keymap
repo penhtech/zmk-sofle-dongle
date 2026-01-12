@@ -45,7 +45,7 @@
 
 &lt { // Layer Tap
   flavor = "balanced";
-  tapping-term-ms = <400>;
+  tapping-term-ms = <200>;
   quick-tap-ms = <QUICK_TAP_MS>;
 };
 
