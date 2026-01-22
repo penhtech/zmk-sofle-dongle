@@ -67,7 +67,7 @@ ZMK_TRI_STATE(
 #include "behaviors/num_word.dtsi" 
 // #include "behaviors/nav_word.dtsi" 
 
-* Nav cluster */
+/* Nav cluster */
 
 // Trigger tap-action on all interrupts.
 #define MT_CORE                                                                \
