@@ -63,12 +63,6 @@ ZMK_TRI_STATE(
     ignored-layers = <MOUSE NAV FN>;)
 
 #include "behaviors/home_row_mods.dtsi" 
-
-// Hack: Make HRM combos tap-only (cf, ZMK issue #544).
-#define ZMK_COMBO_8(NAME, TAP, POS, LAYERS, COMBO_MS, IDLE_MS, HOLD, SIDE)     \
-  MAKE_HRM(hm_combo_##NAME, &kp, TAP, SIDE THUMBS)                             \
-  ZMK_COMBO_6(NAME, &hm_combo_##NAME HOLD 0, POS, LAYERS, COMBO_MS, IDLE_MS)
-
 #include "behaviors/combos.dtsi"  // Must be sourced after HRM-combo hack.
 #include "behaviors/num_word.dtsi" 
 #include "behaviors/nav_word.dtsi" 
