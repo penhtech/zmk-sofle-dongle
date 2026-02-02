@@ -101,6 +101,8 @@ ZMK_HOLD_TAP(mt_end, bindings = <&masked_end>, <&kp>; MT_CORE)
 MASK_MODS(masked_home, (MOD_LCTL), &kp HOME)
 MASK_MODS(masked_end,  (MOD_LCTL), &kp END)
 
+/* Custom behaviors */
+
 #include "behaviors/magic_shift.dtsi"
 #include "behaviors/super_copy.dtsi"
 
