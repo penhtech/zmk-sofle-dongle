@@ -154,11 +154,56 @@ parse_config:
       shifted: $$mdi:apple-keyboard-control$$
     "&hm RIGHT_ALT L":
       tap: 'L'
-      shifted: $$mdi:apple-keyboard-option$$
+      shifted: $$mdi:apple-keyboard-option$
+
     # self behaviors
+    "&cma_smcln":
+      tap: ','
+      shifted: ';'
+    "&at_hash":
+      tap: '@'
+      shifted: '#'
     "&hm LG(LS(V)) P":
       tap: 'P'
       shifted: $$mdi:content-copy$$
+    "&cp_pst_cut":
+      tap: 'Super Copy'
+    "&undo_redo":
+      tap: 'Undo Redo'
+    "&nav_word":
+      tap: 'NAV Hold'
+    "&num_dance":
+      tap: 'NUM Word'
+    "&ss_zone":
+      tap: 'Screenshot'
+    "&ss_mc_zone":
+      tap: 'Screenshot'
+    "&close_win":
+      tap: 'Close Window'
+    "&close_app":
+      tap: 'Close App'
+    "&find":
+      tap: 'Find'
+    "&find_all":
+      tap: 'Find All'
+    "&new_tab":
+      tap: 'New Tab'
+    "&new_private_tab":
+      tap: 'Incognito'
+    "&save_file":
+      tap: 'Save'
+    "&refresh":
+      tap: 'Refresh'
+    "&select_nxt_word":
+      tap: 'Select Word'
+    "&zoom_out":
+      tap: 'Zoom In'
+    "&zoom_in":
+      tap: 'Zoom Out'
+    "&zoom_reset":
+      tap: 'Zoom Reset'
+      
+
     # Mouse
     "&msc SCRL_UP":
       tap: $$mdi:pan-up$$
@@ -198,6 +243,7 @@ parse_config:
       tap: $$mdi:mouse-right-click-outline$$
     "&mkp MCLK":
       tap: $$mdi:mouse-scroll-wheel$$
+
     # Modifiers
     "&caps_word": $$mdi:alpha-w-box$$
     "&kt RSHIFT":
