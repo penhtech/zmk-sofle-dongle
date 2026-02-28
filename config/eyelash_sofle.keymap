@@ -199,11 +199,11 @@ ZMK_CONDITIONAL_LAYER(sys, FN NUM, SYS) // FN + NUM --> SYS.
 
         layer0 {
             bindings = <
-// &kp ESC     &kp N1            &kp N2         &kp N3         &kp N4          &kp N5          &kp UP_ARROW     &kp N6           &kp N7          &kp N8         &kp N9             &kp N0       &kp KP_NUMLOCK
-// &kp TAB     &kp Q             &kp Y          &kp O          &kp U           &undo_redo      &kp DOWN_ARROW   &kp X            &kp L           &kp D          &kp W              &kp Z        &kp DELETE
-// &kp B       &hml LGUI  C      &hml LALT I    &hml LSHFT A   &hmr LCTRL E    &kp MINUS       &kp LEFT_ARROW   &kp K            &hmr LCTRL H    &hmr RSHFT T   &hmr RALT N        &hmr LGUI S  &kp F
-// &mo 1       &kp SQT           &comma_morph   &qexcl         &dot_morph      SMART_NUM       &kp RIGHT_ARROW  &kp J            &kp M           &kp G          &kp P              &kp V        &mo 2
-// &kp C_MUTE  &kp HOME          &kp END        &cp_pst_cut    &lt_spc NAV 0   &lt FN RET      &kp ENTER        MAGIC_SHIFT      &kp R           &bs_del        &kp LEFT_BRACKET   &kp RIGHT_BRACKET
+&kp ESC     &kp N1            &kp N2         &kp N3         &kp N4          &kp N5          &kp UP_ARROW     &kp N6           &kp N7          &kp N8         &kp N9             &kp N0       &kp KP_NUMLOCK
+&kp TAB     &kp Q             &kp Y          &kp O          &kp U           &undo_redo      &kp DOWN_ARROW   &kp X            &kp L           &kp D          &kp W              &kp Z        &kp DELETE
+&kp B       &hml LGUI  C      &hml LALT I    &hml LSHFT A   &hmr LCTRL E    &kp MINUS       &kp LEFT_ARROW   &kp K            &hmr LCTRL H    &hmr RSHFT T   &hmr RALT N        &hmr LGUI S  &kp F
+&mo 1       &kp SQT           &comma_morph   &qexcl         &dot_morph      SMART_NUM       &kp RIGHT_ARROW  &kp J            &kp M           &kp G          &kp P              &kp V        &mo 2
+&kp C_MUTE  &kp HOME          &kp END        &cp_pst_cut    &lt_spc NAV 0   &lt FN RET      &kp ENTER        MAGIC_SHIFT      &kp R           &bs_del        &kp LEFT_BRACKET   &kp RIGHT_BRACKET
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
