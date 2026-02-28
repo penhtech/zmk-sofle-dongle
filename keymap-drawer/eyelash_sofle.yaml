@@ -32,7 +32,7 @@ layers:
   - {t: I, h: '$$mdi:apple-keyboard-option$$'}
   - {t: A, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: E, h: '$$mdi:apple-keyboard-control$$'}
-  - Super Copy
+  - {t: '-', s: _}
   - $$mdi:arrow-left-bold$$
   - K
   - {t: H, h: '$$mdi:apple-keyboard-control$$'}
@@ -54,17 +54,17 @@ layers:
   - V
   - '2'
   - $$mdi:volume-off$$
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
   - HOME
+  - END
+  - Super Copy
   - {t: '$$mdi:keyboard-space$$', h: layer1, s: '&dot_spc'}
   - {t: '$$mdi:keyboard-return$$', h: '2'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:apple-keyboard-shift$$', s: '$$mdi:alpha-w-box$$'}
   - R
   - {t: '$$mdi:backspace$$', s: '$$mdi:backspace-reverse-outline$$'}
-  - {t: \, s: '|'}
-  - END
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
   layer1:
   - {t: '`', s: '~'}
   - F1
