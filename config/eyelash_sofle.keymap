@@ -69,8 +69,8 @@ ZMK_TRI_STATE(
   MAKE_HRM(hm_combo_##NAME, &kp, TAP, SIDE THUMBS)                             \
   ZMK_COMBO_6(NAME, &hm_combo_##NAME HOLD 0, POS, LAYERS, COMBO_MS, IDLE_MS)
 
+// #include "behaviors/macros.dtsi"
 #include "behaviors/combos.dtsi"  // Must be sourced after HRM-combo hack.
-#include "behaviors/macros.dtsi"
 #include "behaviors/num_word.dtsi" 
 // #include "behaviors/nav_word.dtsi" 
 
@@ -111,6 +111,10 @@ MASK_MODS(masked_end,  (MOD_LCTL), &kp END)
 #define SIMPLE_MORPH(NAME, MOD, BINDING1, BINDING2)                            \
   ZMK_MOD_MORPH(NAME, mods = <(MOD_L##MOD | MOD_R##MOD)>;                      \
                 bindings = <BINDING1>, <BINDING2>;)
+
+// Undo Redo
+ZMK_MACRO(undo, bindings = <&kp LG(Z)>;) 
+ZMK_MACRO(redo, bindings = <&kp LG(LS(Z))>;)
 
 // Tap: comma | Shift + tap: semicolon | Ctrl + shift + tap: <. 
 SIMPLE_MORPH(comma_morph, SFT, &kp COMMA, &comma_inner_morph)

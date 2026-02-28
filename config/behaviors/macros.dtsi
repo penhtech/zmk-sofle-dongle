@@ -2,12 +2,12 @@
 #include <dt-bindings/zmk/keys.h>
 #include "../include/zmk-helpers/helper.h"
 
+// Switch Language
+// ZMK_MACRO(kn_en, bindings = <&kp LA(LG(SPACE))>;)
+
 // Navigation
 ZMK_MACRO(next_desk, bindings = <&kp LC(RIGHT) >;)
 ZMK_MACRO(prev_desk, bindings = <&kp LC(LEFT)>;)
-
-// Switch Language
-// ZMK_MACRO(kn_en, bindings = <&kp LA(LG(SPACE))>;)
 
 // Zoom
 ZMK_MACRO(zoom_out, bindings = <&kp LG(MINUS)>;)
