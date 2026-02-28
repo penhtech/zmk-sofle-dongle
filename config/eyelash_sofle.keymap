@@ -69,8 +69,8 @@ ZMK_TRI_STATE(
   MAKE_HRM(hm_combo_##NAME, &kp, TAP, SIDE THUMBS)                             \
   ZMK_COMBO_6(NAME, &hm_combo_##NAME HOLD 0, POS, LAYERS, COMBO_MS, IDLE_MS)
 
-#include "behaviors/macros.dtsi"
 #include "behaviors/combos.dtsi"  // Must be sourced after HRM-combo hack.
+#include "behaviors/macros.dtsi"
 #include "behaviors/num_word.dtsi" 
 // #include "behaviors/nav_word.dtsi" 
 
