@@ -19,7 +19,7 @@ layers:
   - Y
   - O
   - U
-  - '&undo_redo'
+  - Undo Redo
   - $$mdi:arrow-down-bold$$
   - X
   - L
@@ -32,7 +32,7 @@ layers:
   - {t: I, h: '$$mdi:apple-keyboard-option$$'}
   - {t: A, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: E, h: '$$mdi:apple-keyboard-control$$'}
-  - '&cp_pst_cut'
+  - Super Copy
   - $$mdi:arrow-left-bold$$
   - K
   - {t: H, h: '$$mdi:apple-keyboard-control$$'}
@@ -45,7 +45,7 @@ layers:
   - {t: ',', s: ;}
   - {t: '?', s: '!'}
   - {t: ., s: ':'}
-  - {t: '&num_dance', h: '3'}
+  - {t: NUM Word, h: '3'}
   - $$mdi:arrow-right-bold$$
   - J
   - M
