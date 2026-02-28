@@ -111,34 +111,34 @@ MASK_MODS(masked_end,  (MOD_LCTL), &kp END)
   ZMK_MOD_MORPH(NAME, mods = <(MOD_L##MOD | MOD_R##MOD)>;                      \
                 bindings = <BINDING1>, <BINDING2>;)
 
-// Tap: comma | Shift + tap: semicolon | Ctrl + shift + tap: <.
+// Tap: comma | Shift + tap: semicolon | Ctrl + shift + tap: <. 
 SIMPLE_MORPH(comma_morph, SFT, &kp COMMA, &comma_inner_morph)
 SIMPLE_MORPH(comma_inner_morph, CTL, &kp SEMICOLON, &kp LESS_THAN)
 
-// Tap: dot | Shift + tap: colon | Ctrl + shift + tap: >.
+// Tap: dot | Shift + tap: colon | Ctrl + shift + tap: >. 
 SIMPLE_MORPH(dot_morph, SFT, &kp DOT, &dot_inner_morph)
 SIMPLE_MORPH(dot_inner_morph, CTL, &kp COLON, &kp GREATER_THAN)
 
-// Tap: qmark | Shift + tap: excl.
+// Tap: qmark | Shift + tap: excl. 
 SIMPLE_MORPH(qexcl, SFT, &kp QMARK, &kp EXCL)
 
-// Tap: left/right parenthesis | Shft + tap: less-than/greater-than.
+// Tap: left/right parenthesis | Shft + tap: less-than/greater-than. 
 SIMPLE_MORPH(lpar_lt, SFT, &kp LPAR, &kp LT)
 SIMPLE_MORPH(rpar_gt, SFT, &kp RPAR, &kp GT)
 
-// Tap: space | Shift + tap: dot -> space -> sticky shift | Hold: nav layer.
+// Tap: space | Shift + tap: dot -> space -> sticky shift | Hold: nav layer. ********** NOT CURRENTLY ON KEYMAP **********
 ZMK_HOLD_TAP(lt_spc, bindings = <&mo>, <&spc_morph>; flavor = "balanced";
              tapping-term-ms = <200>; quick-tap-ms = <QUICK_TAP_MS>;)
 SIMPLE_MORPH(spc_morph, SFT, &kp SPACE, &dot_spc)
 ZMK_MACRO(dot_spc, bindings = <&kp DOT &kp SPACE &sk LSHFT>; wait-ms = <0>;
           tap-ms = <5>;)
 
-// Tap: backspace | Lshft + tap: delete | Rshft + tap: shift-delete.
+// Tap: backspace | Lshft + tap: delete | Rshft + tap: shift-delete. 
 ZMK_MOD_MORPH(bs_del, bindings = <&kp BSPC>, <&kp DEL>;
               mods = <(MOD_LSFT|MOD_RSFT)>; keep-mods = <MOD_RSFT>;)
 
-// Tap: copy | double-tap: cut.
-ZMK_TAP_DANCE(copy_cut, bindings = <&kp LC(INS)>, <&kp LC(X)>;
+// Tap: Undo | Double-tap: Redo
+ZMK_TAP_DANCE(undo_redo, bindings = <&undo>, <&redo>;
               tapping-term-ms = <200>;)
 
 // Sticky shift + leader.
@@ -194,11 +194,11 @@ ZMK_CONDITIONAL_LAYER(sys, FN NUM, SYS) // FN + NUM --> SYS.
 
         layer0 {
             bindings = <
-&kp ESC     &kp N1            &kp N2             &kp N3         &kp N4          &kp N5       &kp UP_ARROW     &kp N6           &kp N7          &kp N8         &kp N9        &kp N0       &kp KP_NUMLOCK
-&kp TAB     &kp Q             &kp Y              &kp O          &kp U           &kp EQUAL    &kp DOWN_ARROW   &kp X            &kp L           &kp D          &kp W         &kp Z        &kp DELETE
-&kp B       &hml LGUI  C      &hml LALT I        &hml LSHFT A   &hmr LCTRL E    &kp MINUS    &kp LEFT_ARROW   &kp K            &hmr LCTRL H    &hmr RSHFT T   &hmr RALT N   &hmr LGUI S  &kp F
-&mo 1       &kp SQT           &kp COMMA          &kp SEMICOLON  &kp PERIOD      &kp SLASH    &kp RIGHT_ARROW  &kp J            &kp M           &kp G          &kp P         &kp V        &mo 2
-&kp C_MUTE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp HOME       &kp SPACE       &kp RET      &kp ENTER        &kp RIGHT_SHIFT  &kp R           &kp BACKSPACE  &kp BSLH      &kp END
+&kp ESC     &kp N1            &kp N2             &kp N3         &kp N4          &kp N5       &kp UP_ARROW     &kp N6           &kp N7          &kp N8         &kp N9        &kp N0        
+&kp TAB     &kp Q             &kp Y              &kp O          &kp U           &undo_redo   &kp DOWN_ARROW   &kp X            &kp L           &kp D          &kp W         &kp Z        &kp DELETE
+&kp B       &hml LGUI  C      &hml LALT I        &hml LSHFT A   &hmr LCTRL E    cp_pst_cut    &kp LEFT_ARROW   &kp K            &hmr LCTRL H    &hmr RSHFT T   &hmr RALT N   &hmr LGUI S  &kp F
+&mo 1       &kp SQT           &comma_morph       &qexcl         &dot_morph      SMART_NUM    &kp RIGHT_ARROW  &kp J            &kp M           &kp G          &kp P         &kp V        &mo 2
+&kp C_MUTE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp HOME       &lt_spc NAV 0   &lt FN RET   &kp ENTER        MAGIC_SHIFT      &kp R           &bs_del        &kp BSLH      &kp END
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
