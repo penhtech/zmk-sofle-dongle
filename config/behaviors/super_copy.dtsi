@@ -3,5 +3,5 @@
 #include <zmk-helpers/helper.h>
 
 // Tap: Copy | Double Tab: Paste | Ctrl: Cut
-ZMK_TAP_DANCE(cp_pst_cut, bindings = <&mt LCTRL(X) LCTRL(C)>, <&kp LCTRL(V)>; 
+ZMK_TAP_DANCE(cp_pst_cut, bindings = <&mt LG(X) LG(C)>, <&kp LG(V)>; 
               tapping-term-ms = <200>;)

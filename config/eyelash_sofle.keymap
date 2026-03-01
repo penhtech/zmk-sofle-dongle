@@ -113,8 +113,8 @@ MASK_MODS(masked_end,  (MOD_LCTL), &kp END)
                 bindings = <BINDING1>, <BINDING2>;)
 
 // Undo Redo
-ZMK_MACRO(undo, bindings = <&kp LCTRL(Z)>;) 
-ZMK_MACRO(redo, bindings = <&kp LCTRL(LS(Z))>;)
+ZMK_MACRO(undo, bindings = <&kp LG(Z)>;) 
+ZMK_MACRO(redo, bindings = <&kp LG(LS(Z))>;)
 
 // Tap: comma | Shift + tap: semicolon | Ctrl + shift + tap: <. 
 SIMPLE_MORPH(comma_morph, SFT, &kp COMMA, &comma_inner_morph)
