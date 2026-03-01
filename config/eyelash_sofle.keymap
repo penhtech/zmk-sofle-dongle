@@ -113,8 +113,8 @@ MASK_MODS(masked_end,  (MOD_LCTL), &kp END)
                 bindings = <BINDING1>, <BINDING2>;)
 
 // Undo Redo
-ZMK_MACRO(undo, bindings = <&kp LG(Z)>;) 
-ZMK_MACRO(redo, bindings = <&kp LG(LS(Z))>;)
+ZMK_MACRO(undo, bindings = <&kp LCTRL(Z)>;) 
+ZMK_MACRO(redo, bindings = <&kp LCTRL(LS(Z))>;)
 
 // Tap: comma | Shift + tap: semicolon | Ctrl + shift + tap: <. 
 SIMPLE_MORPH(comma_morph, SFT, &kp COMMA, &comma_inner_morph)
@@ -131,7 +131,7 @@ SIMPLE_MORPH(qexcl, SFT, &kp QMARK, &kp EXCL)
 SIMPLE_MORPH(lpar_lt, SFT, &kp LPAR, &kp LT)
 SIMPLE_MORPH(rpar_gt, SFT, &kp RPAR, &kp GT)
 
-// Tap: space | Shift + tap: dot -> space -> sticky shift | Hold: nav layer. ********** NOT CURRENTLY ON KEYMAP **********
+// Tap: space | Shift + tap: dot -> space -> sticky shift | Hold: nav layer.  
 ZMK_HOLD_TAP(lt_spc, bindings = <&mo>, <&spc_morph>; flavor = "balanced";
              tapping-term-ms = <200>; quick-tap-ms = <QUICK_TAP_MS>;)
 SIMPLE_MORPH(spc_morph, SFT, &kp SPACE, &dot_spc)
@@ -150,13 +150,13 @@ ZMK_TAP_DANCE(undo_redo, bindings = <&undo>, <&redo>;
 // ZMK_MACRO(leader_sft, bindings = <&sk LSHFT &leader>;)
 
 // Misc aliases. [TODO: clean up]
-#define CANCEL    &kp K_CANCEL            // Cancel caps-word & auto-layers.
-#define DSK_PREV  &hmr LCTRL LG(LC(LEFT)) // Previous desktop.
-#define DSK_NEXT  &hmr LALT LG(LC(RIGHT)) // Next     desktop.
-#define PIN_WIN   &kp LG(LC(LS(Q)))       // Pin window across desktops.
-#define PIN_APP   &kp LG(LC(LS(A)))       // Pin application across desktops.
-#define DSK_MGR   &kp LA(GRAVE)           // Desktop manager.
-#define VOL_DOWN  &hmr RSHFT C_VOL_DN
+// #define CANCEL    &kp K_CANCEL            // Cancel caps-word & auto-layers.
+// #define DSK_PREV  &hmr LCTRL LG(LC(LEFT)) // Previous desktop.
+// #define DSK_NEXT  &hmr LALT LG(LC(RIGHT)) // Next     desktop.
+// #define PIN_WIN   &kp LG(LC(LS(Q)))       // Pin window across desktops.
+// #define PIN_APP   &kp LG(LC(LS(A)))       // Pin application across desktops.
+// #define DSK_MGR   &kp LA(GRAVE)           // Desktop manager.
+// #define VOL_DOWN  &hmr RSHFT C_VOL_DN
 
 
 /* ------ */
@@ -174,22 +174,22 @@ ZMK_CONDITIONAL_LAYER(sys, FN NUM, SYS) // FN + NUM --> SYS.
         tap-ms = <30>;
     };
 
-    macros {
-        shift_MB3: shift_MB3 {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&macro_press>,
-                <&kp LEFT_SHIFT>,
-                <&macro_press>,
-                <&mkp MB3>,
-                <&macro_pause_for_release>,
-                <&macro_release>,
-                <&mkp MB3 &kp LEFT_SHIFT>;
+    // macros {
+    //     shift_MB3: shift_MB3 {
+    //         compatible = "zmk,behavior-macro";
+    //         #binding-cells = <0>;
+    //         bindings =
+    //             <&macro_press>,
+    //             <&kp LEFT_SHIFT>,
+    //             <&macro_press>,
+    //             <&mkp MB3>,
+    //             <&macro_pause_for_release>,
+    //             <&macro_release>,
+    //             <&mkp MB3 &kp LEFT_SHIFT>;
 
-            label = "SHIFT_MB3";
-        };
-    };
+    //         label = "SHIFT_MB3";
+    //     };
+    // };
 
     behaviors {
     };
