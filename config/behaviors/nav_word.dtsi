@@ -15,4 +15,4 @@
 // Tap: nav-word  | Hold: nav-layer.
 #define SMART_NAV &smart_nav NAV NAV
 ZMK_HOLD_TAP(smart_nav, bindings = <&mo>, <&nav_word>; flavor = "balanced";
-             tapping-term-ms = <200>; quick-tap-ms = <QUICK_TAP_MS>;)
+             tapping-term-ms = <300>; quick-tap-ms = <QUICK_TAP_MS>;)
