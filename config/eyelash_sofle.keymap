@@ -211,6 +211,7 @@ ZMK_TAP_DANCE(undo_redo, bindings = <&undo>, <&redo>;
 
     behaviors {
     };
+};
 
 /* ------ */
 /* Keymap */
