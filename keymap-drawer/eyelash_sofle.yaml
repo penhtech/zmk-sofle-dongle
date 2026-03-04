@@ -19,7 +19,7 @@ layers:
   - Y
   - O
   - U
-  - Undo Redo
+  - Super Copy
   - $$mdi:arrow-down-bold$$
   - X
   - L
@@ -56,7 +56,7 @@ layers:
   - $$mdi:volume-off$$
   - HOME
   - END
-  - Super Copy
+  - Undo Redo
   - {t: '$$mdi:keyboard-space$$', h: layer1, s: '&dot_spc'}
   - {t: '$$mdi:keyboard-return$$', h: '2'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
