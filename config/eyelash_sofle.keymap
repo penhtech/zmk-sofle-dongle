@@ -232,11 +232,11 @@ ZMK_TAP_DANCE(undo_redo, bindings = <&undo>, <&redo>;
 
         layer_1 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans     &trans  &trans  &trans    &trans     &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans    &comma_    morph   &kp N7  &kp N8    &kp N9     &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans    &kp TAB    &kp N4  &kp N5  &kp N6    &dot_morph &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans    &kp ENTER  &kp N1  &kp N2  &kp N3    &trans     &trans
-etrans  &trans  &trans  &trans  &trans  &trans    &trans    &trans     &kp N0  &trans  &kp LPAR  &kp RPAR
+&trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans        &trans  &trans  &trans    &trans      &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans    &comma_morph  &kp N7  &kp N8  &kp N9    &trans      &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans    &kp TAB       &kp N4  &kp N5  &kp N6    &dot_morph  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans    &kp ENTER     &kp N1  &kp N2  &kp N3    &trans      &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans        &kp N0  &trans  &kp LPAR  &kp RPAR
             >;
 
             display-name = "Number";
