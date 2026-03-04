@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: eyelash_sofle}
 layers:
-  LAYER0:
+  Enthium:
   - $$mdi:keyboard-esc$$
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
@@ -40,97 +40,97 @@ layers:
   - {t: N, h: '$$mdi:apple-keyboard-option$$'}
   - {t: S, h: LGUI}
   - F
-  - layer1
+  - Number
   - {t: '''', s: '"'}
   - {t: ',', s: ;}
   - {t: '?', s: '!'}
   - {t: ., s: ':'}
-  - {t: NUM Word, h: '3'}
+  - {t: NUM Word, h: Layer 3}
   - $$mdi:arrow-right-bold$$
   - J
   - M
   - G
   - P
   - V
-  - '2'
+  - Layer 2
   - $$mdi:volume-off$$
   - HOME
   - END
   - Undo Redo
-  - {t: '$$mdi:keyboard-space$$', h: layer1, s: '&dot_spc'}
-  - {t: '$$mdi:keyboard-return$$', h: '2'}
+  - {t: '$$mdi:keyboard-space$$', h: Number, s: '&dot_spc'}
+  - {t: '$$mdi:keyboard-return$$', h: Layer 2}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:apple-keyboard-shift$$', s: '$$mdi:alpha-w-box$$'}
   - R
   - {t: '$$mdi:backspace$$', s: '$$mdi:backspace-reverse-outline$$'}
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  layer1:
-  - {t: '`', s: '~'}
-  - F1
-  - F2
-  - F3
-  - F4
-  - F5
-  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
-  - F6
-  - F7
-  - F8
-  - F9
-  - F10
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '`', s: '~'}
-  - $$mdi:mouse-left-click-outline$$
-  - $$mdi:mouse-scroll-wheel$$
-  - $$mdi:mouse-right-click-outline$$
-  - '&mkp MB4'
-  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - PG UP
-  - END
-  - $$mdi:arrow-up-bold$$
-  - HOME
-  - {t: '-', s: _}
-  - {t: '=', s: +}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - '~'
+  Number:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&mkp MB5'
-  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
-  - PG DN
-  - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-down-bold$$
-  - $$mdi:arrow-right-bold$$
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: ',', s: ;}
+  - {t: '7', s: '&'}
+  - {t: '8', s: '*'}
+  - {t: '9', s: (}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:keyboard-tab$$
+  - {t: '4', s: $}
+  - {t: '5', s: '%'}
+  - {t: '6', s: ^}
+  - {t: ., s: ':'}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - RGB OFF
-  - RGB ON
-  - RGB EFF
-  - RGB EFR
-  - RGB SPI
-  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
-  - RGB BRI
-  - RGB BRD
-  - Ins
-  - F11
-  - F12
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:volume-off$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '1', s: '!'}
+  - {t: '2', s: '@'}
+  - {t: '3', s: '#'}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '0', s: )}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  '2':
+  - (
+  - )
+  Layer 2:
   - '~'
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
@@ -195,7 +195,58 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  '3':
+  Layer 3:
+  - {t: '`', s: '~'}
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '`', s: '~'}
+  - $$mdi:mouse-left-click-outline$$
+  - $$mdi:mouse-scroll-wheel$$
+  - $$mdi:mouse-right-click-outline$$
+  - '&mkp MB4'
+  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
+  - PG UP
+  - END
+  - $$mdi:arrow-up-bold$$
+  - HOME
+  - {t: '-', s: _}
+  - {t: '=', s: +}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - '~'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - '&mkp MB5'
+  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
+  - PG DN
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-right-bold$$
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - RGB OFF
+  - RGB ON
+  - RGB EFF
+  - RGB EFR
+  - {t: RGB SPI, type: held}
+  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
+  - RGB BRI
+  - RGB BRD
+  - Ins
+  - F11
+  - F12
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -203,58 +254,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -263,103 +263,109 @@ layers:
 combos:
 - p: [15, 16]
   k: $$mdi:keyboard-esc$$
-  l: [LAYER0, layer1, '3']
+  l: [Enthium, Number, Layer 3]
 - p: [16, 17]
   k: '&smart_mouse'
-  l: [LAYER0, layer1, '3']
+  l: [Enthium, Number, Layer 3]
 - p: [28, 29]
   k: '&hml LS(LALT)TAB'
-  l: [LAYER0, layer1, '3']
+  l: [Enthium, Number, Layer 3]
+- p: [29, 30]
+  k: {t: '&leader', h: 'Sft+$$mdi:apple-keyboard-control$$'}
+  l: [Enthium, Number, Layer 3]
+- p: [28, 29, 30]
+  k: {t: '&leader_sft', h: '$$mdi:star-three-points$$'}
+  l: [Enthium, Number, Layer 3]
 - p: [41, 43]
   k: Ctl+X
-  l: [LAYER0, layer1, '3']
+  l: [Enthium, Number, Layer 3]
 - p: [41, 42]
   k: Ctl+INS
-  l: [LAYER0, layer1, '3']
+  l: [Enthium, Number, Layer 3]
 - p: [42, 43]
   k: Sft+INS
-  l: [LAYER0, layer1, '3']
+  l: [Enthium, Number, Layer 3]
 - p: [21, 22]
   k: {t: '$$mdi:backspace$$', type: backspace}
-  l: [LAYER0, layer1, '3']
+  l: [Enthium, Number, Layer 3]
 - p: [22, 23]
   k: $$mdi:backspace-reverse-outline$$
-  l: [LAYER0, layer1, '3']
+  l: [Enthium, Number, Layer 3]
 - p: [34, 35]
   k: {t: (, h: 'Sft+$$mdi:apple-keyboard-control$$', s: <}
-  l: [LAYER0, '3']
+  l: [Enthium, Layer 3]
 - p: [35, 36]
   k: {t: ), h: 'Sft+$$mdi:apple-keyboard-option$$', s: '>'}
-  l: [LAYER0, '3']
+  l: [Enthium, Layer 3]
 - p: [34, 35]
   k: (
-  l: [LAYER0, '3']
+  l: [Enthium, Layer 3]
 - p: [35, 36]
   k: )
-  l: [LAYER0, '3']
+  l: [Enthium, Layer 3]
 - p: [34, 35]
   k: <
-  l: [layer1]
+  l: [Number]
 - p: [35, 36]
   k: '>'
-  l: [layer1]
+  l: [Number]
 - p: [47, 48]
   k: {h: '[', s: '{'}
-  l: [LAYER0, '3']
+  l: [Enthium, Layer 3]
 - p: [48, 49]
   k: {h: ']', s: '}'}
-  l: [LAYER0, '3']
+  l: [Enthium, Layer 3]
 - p: [47, 48]
   k: '{'
-  l: [layer1]
+  l: [Number]
 - p: [48, 49]
   k: '}'
-  l: [layer1]
+  l: [Number]
 - p: [15, 28]
   k: '@'
-  l: [LAYER0, layer1, '3']
+  l: [Enthium, Number, Layer 3]
 - p: [16, 29]
   k: '#'
-  l: [LAYER0, layer1, '3']
+  l: [Enthium, Number, Layer 3]
 - p: [17, 30]
   k: $
-  l: [LAYER0, layer1, '3']
+  l: [Enthium, Number, Layer 3]
 - p: [18, 31]
   k: '%'
-  l: [LAYER0, layer1, '3']
+  l: [Enthium, Number, Layer 3]
 - p: [28, 41]
   k: {t: '`', s: '~'}
-  l: [LAYER0, layer1, '3']
+  l: [Enthium, Number, Layer 3]
 - p: [29, 42]
   k: {t: \, s: '|'}
-  l: [LAYER0, layer1, '3']
+  l: [Enthium, Number, Layer 3]
 - p: [30, 43]
   k: {h: '=', s: +}
-  l: [LAYER0, layer1, '3']
+  l: [Enthium, Number, Layer 3]
 - p: [31, 44]
   k: '~'
-  l: [LAYER0, layer1, '3']
+  l: [Enthium, Number, Layer 3]
 - p: [20, 33]
   k: ^
-  l: [LAYER0, layer1, '3']
+  l: [Enthium, Number, Layer 3]
 - p: [21, 34]
   k: +
-  l: [LAYER0, layer1, '3']
+  l: [Enthium, Number, Layer 3]
 - p: [22, 35]
   k: '*'
-  l: [LAYER0, layer1, '3']
+  l: [Enthium, Number, Layer 3]
 - p: [23, 36]
-  k: '&'
-  l: [LAYER0, layer1, '3']
+  k: {t: '=', s: +}
+  l: [Enthium, Number, Layer 3]
 - p: [33, 46]
   k: _
-  l: [LAYER0, layer1, '3']
+  l: [Enthium, Number, Layer 3]
 - p: [34, 47]
   k: {h: '-', s: _}
-  l: [LAYER0, layer1, '3']
+  l: [Enthium, Number, Layer 3]
 - p: [35, 48]
   k: {t: /, s: '?'}
-  l: [LAYER0, layer1, '3']
+  l: [Enthium, Number, Layer 3]
 - p: [36, 49]
   k: '|'
-  l: [LAYER0, layer1, '3']
+  l: [Enthium, Number, Layer 3]
