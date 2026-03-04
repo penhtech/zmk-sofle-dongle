@@ -158,6 +158,12 @@ ZMK_TAP_DANCE(undo_redo, bindings = <&undo>, <&redo>;
 #define DSK_MGR   &kp LA(GRAVE)           // Desktop manager.
 #define VOL_DOWN  &hmr RSHFT C_VOL_DN
 
+/* ------ */
+/* Keymap */
+/* ------ */
+
+ZMK_CONDITIONAL_LAYER(sys, FN NUM, SYS) // FN + NUM --> SYS.
+
 / {
     zip_scroll_scaler: zip_scroll_scaler {
         compatible = "zmk,input-processor-scaler";
@@ -211,13 +217,6 @@ ZMK_TAP_DANCE(undo_redo, bindings = <&undo>, <&redo>;
 
     behaviors {
     };
-};
-
-/* ------ */
-/* Keymap */
-/* ------ */
-
-ZMK_CONDITIONAL_LAYER(sys, FN NUM, SYS) // FN + NUM --> SYS.
 
     keymap {
         compatible = "zmk,keymap";
