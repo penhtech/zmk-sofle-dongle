@@ -9,6 +9,11 @@
 #include <dt-bindings/zmk/rgb.h>
 #include <dt-bindings/zmk/behaviors.h>
 
+// #include <zmk-helpers/helper.h> // Requires zmk-helpers module.
+// #include <zmk-helpers/key-labels/eyelashsofle.h> // Requires zmk-helpers module.
+#include "include/zmk-helpers/helper.h"
+#include "include/zmk-helpers/key-labels/eyelashsofle.h"
+
 // #define ZMK_POINTING_DEFAULT_MOVE_VAL 1200  // 600
 // #define ZMK_POINTING_DEFAULT_SCRL_VAL 35    // 10
 
