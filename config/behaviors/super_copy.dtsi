@@ -2,6 +2,6 @@
 #include <dt-bindings/zmk/keys.h>
 #include <zmk-helpers/helper.h>
 
-// Tap: Copy | Double Tab: Paste | Ctrl: Cut
+// Hold: Cut | Tap: Copy | Double Tab: Paste
 ZMK_TAP_DANCE(cp_pst_cut, bindings = <&mt LC(X) LC(C)>, <&kp LC(V)>; 
               tapping-term-ms = <300>;)
