@@ -223,7 +223,7 @@ ZMK_TAP_DANCE(undo_redo, bindings = <&undo>, <&redo>;
 &kp TAB     &kp Q             &kp Y          &kp O          &kp U           &cp_pst_cut     &kp DOWN_ARROW   &kp X            &kp L           &kp D          &kp W              &kp Z        &kp DELETE
 &kp B       &hml LGUI  C      &hml LALT I    &hml LSHFT A   &hmr LCTRL E    &kp MINUS       &kp LEFT_ARROW   &kp K            &hmr LCTRL H    &hmr RSHFT T   &hmr RALT N        &hmr LGUI S  &kp F
 &mo 1       &kp SQT           &comma_morph   &qexcl         &dot_morph      SMART_NUM       &kp RIGHT_ARROW  &kp J            &kp M           &kp G          &kp P              &kp V        &mo 2
-&kp C_MUTE  &kp HOME          &kp END        &undo_redo     &lt_spc NAV 0   &lt FN RET      &kp ENTER        MAGIC_SHIFT      &kp R           &bs_del        &kp LEFT_BRACKET   &kp RIGHT_BRACKET
+&kp C_MUTE  &kp HOME          &kp END        &undo_redo     &lt_spc NAV 0   &lt FN RET      &kp ENTER        MAGIC_SHIFT      &kp R           &bs_del        &kp LBKT           &kp RBKT 
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -232,11 +232,11 @@ ZMK_TAP_DANCE(undo_redo, bindings = <&undo>, <&redo>;
 
         layer_1 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans        &trans  &trans  &trans    &trans      &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans    &comma_morph  &kp N7  &kp N8  &kp N9    &trans      &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans    &kp TAB       &kp N4  &kp N5  &kp N6    &dot_morph  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans    &kp ENTER     &kp N1  &kp N2  &kp N3    &trans      &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans    &trans        &kp N0  &trans  &kp LPAR  &kp RPAR
+&trans  &trans  &trans  &trans  &trans  &trans    &mmv UP_ARROW      &trans        &trans  &trans  &trans    &trans      &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &mmv DOWN_ARROW    &comma_morph  &kp N7  &kp N8  &kp N9    &trans      &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &mmv LEFT_ARROW    &kp TAB       &kp N4  &kp N5  &kp N6    &dot_morph  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &mmv RIGHT_ARROW   &kp ENTER     &kp N1  &kp N2  &kp N3    &trans      &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp ENTER          &trans        &kp N0  &trans  &kp LPAR  &kp RPAR
             >;
 
             display-name = "Number";
@@ -257,10 +257,10 @@ ZMK_TAP_DANCE(undo_redo, bindings = <&undo>, <&redo>;
 
         layer_3 {
             bindings = <
-&kp GRAVE   &kp F1           &kp F2          &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6           &kp F7           &kp F8      &kp F9     &kp F10           &trans
-&trans      &kp GRAVE        &mkp LCLK       &mkp MCLK        &mkp RCLK        &mkp MB4           &mmv MOVE_DOWN   &kp PG_UP        &kp END          &kp UP      &kp HOME   &kp MINUS         &kp EQUAL
-&trans      &kp TILDE        &trans          &trans           &trans           &mkp MB5           &mmv MOVE_LEFT   &kp PG_DN        &kp LEFT         &kp DOWN    &kp RIGHT  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&trans      &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp INSERT  &kp F11    &kp F12           &trans
+&kp GRAVE   &kp F1           &kp F2          &kp F3           &kp F4           &kp F5             &mmv MOVE_UP     &kp F6           &kp F7           &kp F8      &kp F9     &kp F10    &trans
+&trans      &kp GRAVE        &mkp LCLK       &mkp MCLK        &mkp RCLK        &mkp MB4           &mmv MOVE_DOWN   &kp PG_UP        &kp END          &kp UP      &kp HOME   &kp MINUS  &kp EQUAL
+&trans      &kp TILDE        &trans          &trans           &trans           &mkp MB5           &mmv MOVE_LEFT   &kp PG_DN        &kp LEFT         &kp DOWN    &kp RIGHT  &kp LBKT   &kp RBKT
+&trans      &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_EFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &kp INSERT  &kp F11    &kp F12    &trans
 &trans      &trans           &trans          &trans           &trans           &trans             &mkp LCLK        &trans           &trans           &trans      &trans     &trans
             >;
 
