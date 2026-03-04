@@ -1,6 +1,6 @@
 #include <dt-bindings/zmk/behaviors.h>
 #include <dt-bindings/zmk/keys.h>
-#include "../include/zmk-helpers/helper.h"
+#include <zmk-helpers/helper.h>
 
 // Switch Language
 // ZMK_MACRO(kn_en, bindings = <&kp LA(LG(SPACE))>;)
@@ -46,8 +46,8 @@ ZMK_MACRO(close_win, bindings = <&kp LG(W)>;)
 ZMK_MACRO(close_app, bindings = <&kp LG(Q)>;)
 
 // Undo Redo
-ZMK_MACRO(undo, bindings = <&kp LG(Z)>;) 
-ZMK_MACRO(redo, bindings = <&kp LG(LS(Z))>;)
+ZMK_MACRO(undo, bindings = <&kp LC(Z)>;) 
+ZMK_MACRO(redo, bindings = <&kp LC(LS(Z))>;)
 
 // Common actions
 ZMK_MACRO(select_all,             bindings = <&kp LG(A)>;) 
