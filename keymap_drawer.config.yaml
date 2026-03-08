@@ -118,43 +118,43 @@ parse_config:
 
   raw_binding_map:
     # Layers
-    "&ltq 1 BACKSPACE":
-      tap:  $$mdi:backspace$$
-      hold: '$$mdi:navigation-variant$$'
-    "&ltq 3 TAB":
-      tap: $$mdi:keyboard-tab$$
-      hold: $$mdi:numeric$$
-    "&ltq 2 SPACE":
-      tap: $$mdi:keyboard-space$$
-      hold: $$mdi:symbol$$
-    "&ltq 3 ENTER":
-      tap: $$mdi:keyboard-return$$
-      hold: $$mdi:numeric$$
-    "&ltq 1 DELETE":
-      tap: $$mdi:backspace-reverse-outline$$
-      hold: $$mdi:navigation-variant$$
+    # "&ltq 1 BACKSPACE":
+    #   tap:  $$mdi:backspace$$
+    #   hold: '$$mdi:navigation-variant$$'
+    # "&ltq 3 TAB":
+    #   tap: $$mdi:keyboard-tab$$
+    #   hold: $$mdi:numeric$$
+    # "&ltq 2 SPACE":
+    #   tap: $$mdi:keyboard-space$$
+    #   hold: $$mdi:symbol$$
+    # "&ltq 3 ENTER":
+    #   tap: $$mdi:keyboard-return$$
+    #   hold: $$mdi:numeric$$
+    # "&ltq 1 DELETE":
+    #   tap: $$mdi:backspace-reverse-outline$$
+    #   hold: $$mdi:navigation-variant$$
     # Home rows
-    "&hm LEFT_GUI A":
-      tap: 'A'
-      shifted: $$mdi:apple-keyboard-command$$
-    "&hm LEFT_ALT S":
-      tap: 'S'
-      shifted: $$mdi:apple-keyboard-option$$
-    "&hm LEFT_CONTROL D":
-      tap: 'D'
-      shifted: $$mdi:apple-keyboard-control$$
-    "&hm LEFT_SHIFT F":
-      tap: 'F'
-      shifted: $$mdi:apple-keyboard-shift$$
-    "&hm RIGHT_SHIFT J":
-      tap: 'J'
-      shifted: $$mdi:apple-keyboard-shift$$
-    "&hm RIGHT_CONTROL K":
-      tap: 'K'
-      shifted: $$mdi:apple-keyboard-control$$
-    "&hm RIGHT_ALT L":
-      tap: 'L'
-      shifted: $$mdi:apple-keyboard-option$
+    # "&hm LEFT_GUI A":
+    #   tap: 'A'
+    #   shifted: $$mdi:apple-keyboard-command$$
+    # "&hm LEFT_ALT S":
+    #   tap: 'S'
+    #   shifted: $$mdi:apple-keyboard-option$$
+    # "&hm LEFT_CONTROL D":
+    #   tap: 'D'
+    #   shifted: $$mdi:apple-keyboard-control$$
+    # "&hm LEFT_SHIFT F":
+    #   tap: 'F'
+    #   shifted: $$mdi:apple-keyboard-shift$$
+    # "&hm RIGHT_SHIFT J":
+    #   tap: 'J'
+    #   shifted: $$mdi:apple-keyboard-shift$$
+    # "&hm RIGHT_CONTROL K":
+    #   tap: 'K'
+    #   shifted: $$mdi:apple-keyboard-control$$
+    # "&hm RIGHT_ALT L":
+    #   tap: 'L'
+    #   shifted: $$mdi:apple-keyboard-option$
 
     # self behaviors
     "&cma_smcln":
@@ -163,13 +163,15 @@ parse_config:
     "&at_hash":
       tap: '@'
       shifted: '#'
-    "&hm LG(LS(V)) P":
-      tap: 'P'
-      shifted: $$mdi:content-copy$$
+    # "&hm LG(LS(V)) P":
+    #   tap: 'P'
+    #   shifted: $$mdi:content-copy$$
     "&cp_pst_cut":
       tap: 'Super Copy'
     "&undo_redo":
-      tap: 'Undo Redo'
+      tap: 'Undo Redo' 
+    "smart_mouse":
+      tap: 'Smart Mouse'
     "&nav_word":
       tap: 'NAV Hold'
     "&num_dance":
@@ -202,7 +204,22 @@ parse_config:
       tap: 'Zoom Out'
     "&zoom_reset":
       tap: 'Zoom Reset'
-      
+    "&kp ESC":
+      tap: 'ESC'
+    "&kp TAB":
+      tap: 'TAB'
+    "&comma_morph":
+      tap: ","
+      shifted: ";" 
+    "&dot_morph":
+      tap: "."
+      shifted: ":" 
+    "&dot_space":
+      tap: "Dot Space"
+    ENTER:
+      tap: "ENTER"
+    RET:
+      tap: "RETURN"
 
     # Mouse
     "&msc SCRL_UP":
@@ -482,16 +499,16 @@ parse_config:
     RIGHT_ARROW: $$mdi:arrow-right-bold$$
 
     # Whitespace
-    ENTER:
-      type: enter
-      tap: $$mdi:keyboard-return$$
-    RET:
-      type: enter
-      tap: $$mdi:keyboard-return$$
-    ESC: $$mdi:keyboard-esc$$
-    ESCAPE: $$mdi:keyboard-esc$$
-    TAB: $$mdi:keyboard-tab$$
-    LS(TAB): $$mdi:keyboard-tab-reverse$$
+    # ENTER:
+    #   type: enter
+    #   tap: $$mdi:keyboard-return$$
+    # RET:
+    #   type: enter
+    #   tap: $$mdi:keyboard-return$$
+    # ESC: $$mdi:keyboard-esc$$
+    # ESCAPE: $$mdi:keyboard-esc$$
+    # TAB: $$mdi:keyboard-tab$$
+    # LS(TAB): $$mdi:keyboard-tab-reverse$$
     SPACE: $$mdi:keyboard-space$$
     BACKSPACE:
       type: backspace
