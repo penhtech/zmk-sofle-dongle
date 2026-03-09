@@ -127,6 +127,9 @@ SIMPLE_MORPH(qexcl, SFT, &kp QMARK, &kp EXCL)
 SIMPLE_MORPH(lpar_lt, SFT, &kp LPAR, &kp LT)
 SIMPLE_MORPH(rpar_gt, SFT, &kp RPAR, &kp GT)
 
+// Tap: $ | Shft + tap: €. 
+SIMPLE_MORPH(dllr_eur, SFT, &kp DLLR, &kp RA(N5))
+
 // Tap: space | Shift + tap: dot -> space -> sticky shift | Hold: num layer.  
 ZMK_HOLD_TAP(lt_spc, bindings = <&mo>, <&spc_morph>; flavor = "balanced";
              tapping-term-ms = <300>; quick-tap-ms = <QUICK_TAP_MS>;)
