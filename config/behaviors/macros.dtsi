@@ -49,6 +49,10 @@ ZMK_MACRO(close_app, bindings = <&kp LG(Q)>;)
 ZMK_MACRO(undo, bindings = <&kp LC(Z)>;) 
 ZMK_MACRO(redo, bindings = <&kp LC(LS(Z))>;)
 
+// qu - q
+ZMK_MACRO(qu_q, bindings = <&kp Q &kp U>;) 
+
+
 // Common actions
 ZMK_MACRO(select_all,             bindings = <&kp LG(A)>;) 
 ZMK_MACRO(find,                   bindings = <&kp LG(F)>;) 
