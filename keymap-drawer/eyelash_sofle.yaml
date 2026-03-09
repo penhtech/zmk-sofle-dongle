@@ -15,7 +15,7 @@ layers:
   - {t: '0', s: )}
   - KP NUMLOCK
   - TAB
-  - Q
+  - '&qu_q_holdtap Q'
   - Y
   - O
   - U
