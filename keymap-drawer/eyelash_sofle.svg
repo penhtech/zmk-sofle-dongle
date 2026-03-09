@@ -693,6 +693,7 @@ rect.held, rect.combo.held {
 <g class="combo combopos-8">
 <rect rx="6" ry="6" x="630" y="134" width="28" height="26" class="combo"/>
 <text x="644" y="147" class="combo tap">$</text>
+<text x="644" y="136" class="combo shifted"><tspan style="font-size: 86%">AltGr+5</tspan></text>
 </g>
 <g class="combo combopos-9">
 <rect rx="6" ry="6" x="686" y="130" width="28" height="26" class="combo"/>
@@ -727,6 +728,7 @@ rect.held, rect.combo.held {
 <g class="combo combopos-15">
 <rect rx="6" ry="6" x="238" y="106" width="28" height="26" class="combo"/>
 <text x="252" y="119" class="combo tap">$</text>
+<text x="252" y="108" class="combo shifted"><tspan style="font-size: 86%">AltGr+5</tspan></text>
 </g>
 <g class="combo combopos-16">
 <rect rx="6" ry="6" x="294" y="106" width="28" height="26" class="combo"/>
@@ -1166,6 +1168,7 @@ rect.held, rect.combo.held {
 <g class="combo combopos-8">
 <rect rx="6" ry="6" x="630" y="134" width="28" height="26" class="combo"/>
 <text x="644" y="147" class="combo tap">$</text>
+<text x="644" y="136" class="combo shifted"><tspan style="font-size: 86%">AltGr+5</tspan></text>
 </g>
 <g class="combo combopos-9">
 <rect rx="6" ry="6" x="686" y="130" width="28" height="26" class="combo"/>
@@ -1200,6 +1203,7 @@ rect.held, rect.combo.held {
 <g class="combo combopos-15">
 <rect rx="6" ry="6" x="238" y="106" width="28" height="26" class="combo"/>
 <text x="252" y="119" class="combo tap">$</text>
+<text x="252" y="108" class="combo shifted"><tspan style="font-size: 86%">AltGr+5</tspan></text>
 </g>
 <g class="combo combopos-16">
 <rect rx="6" ry="6" x="294" y="106" width="28" height="26" class="combo"/>
@@ -2021,6 +2025,7 @@ rect.held, rect.combo.held {
 <g class="combo combopos-14">
 <rect rx="6" ry="6" x="238" y="106" width="28" height="26" class="combo"/>
 <text x="252" y="119" class="combo tap">$</text>
+<text x="252" y="108" class="combo shifted"><tspan style="font-size: 86%">AltGr+5</tspan></text>
 </g>
 <g class="combo combopos-15">
 <rect rx="6" ry="6" x="294" y="106" width="28" height="26" class="combo"/>

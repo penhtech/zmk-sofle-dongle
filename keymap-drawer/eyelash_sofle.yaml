@@ -286,7 +286,7 @@ combos:
   k: $$mdi:backspace-reverse-outline$$
   l: [Enthium, Layer 3, Number]
 - p: [33, 34]
-  k: $
+  k: {t: $, s: AltGr+5}
   l: [Enthium, Number]
 - p: [34, 35]
   k: {t: (, h: 'Sft+$$mdi:apple-keyboard-control$$', s: <}
@@ -319,7 +319,7 @@ combos:
   k: '#'
   l: [Enthium, Layer 3, Number]
 - p: [17, 30]
-  k: $
+  k: {t: $, s: AltGr+5}
   l: [Enthium, Layer 3, Number]
 - p: [18, 31]
   k: '%'
