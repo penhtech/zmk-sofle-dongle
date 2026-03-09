@@ -238,7 +238,7 @@ ZMK_TAP_DANCE(undo_redo, bindings = <&undo>, <&redo>;
 
         layer0 {
             bindings = <
-&qu_q_holdtap LT1 LT1
+&qu_q_holdtap LT1
 &kp ESC     &kp N1            &kp N2         &kp N3         &kp N4          &kp N5          &kp UP_ARROW     &kp N6           &kp N7          &kp N8         &kp N9             &kp N0       &kp KP_NUMLOCK
 &kp TAB     &kp Q             &kp Y          &kp O          &kp U           &cp_pst_cut     &kp DOWN_ARROW   &kp X            &kp L           &kp D          &kp W              &kp Z        &kp DELETE
 &kp B       &hml LGUI  C      &hml LALT I    &hml LSHFT A   &hmr LCTRL E    &kp MINUS       &kp LEFT_ARROW   &kp K            &hmr LCTRL H    &hmr RSHFT T   &hmr RALT N        &hmr LGUI S  &kp F
