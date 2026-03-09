@@ -15,7 +15,7 @@ layers:
   - {t: '0', s: )}
   - KP NUMLOCK
   - TAB
-  - Q
+  - '&qu_q_holdtap'
   - Y
   - O
   - U
@@ -331,7 +331,7 @@ combos:
   k: {t: \, s: '|'}
   l: [Enthium, Layer 3, Number]
 - p: [30, 43]
-  k: {h: '=', s: +}
+  k: '&'
   l: [Enthium, Layer 3, Number]
 - p: [31, 44]
   k: '~'
@@ -346,7 +346,7 @@ combos:
   k: '*'
   l: [Enthium, Layer 3, Number]
 - p: [23, 36]
-  k: {t: '=', s: +}
+  k: {h: '=', s: +}
   l: [Enthium, Layer 3, Number]
 - p: [33, 46]
   k: _
