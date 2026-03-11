@@ -15,7 +15,7 @@ layers:
   - {t: '0', s: )}
   - KP NUMLOCK
   - TAB
-  - {t: '&qu_q Q', h: Q}
+  - {t: '&qu_q', h: Q, s: '&qu_cap'}
   - Y
   - O
   - U
@@ -63,8 +63,8 @@ layers:
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:apple-keyboard-shift$$', s: '$$mdi:alpha-w-box$$'}
   - R
   - {t: '$$mdi:backspace$$', s: '$$mdi:backspace-reverse-outline$$'}
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
+  - PgUp
+  - PgDn
   Number:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -128,8 +128,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '0', s: )}
   - {t: '$$mdi:backspace$$', s: '$$mdi:backspace-reverse-outline$$'}
-  - {t: (, s: <}
-  - {t: ), s: '>'}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   Layer 2:
   - '~'
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
@@ -300,6 +300,9 @@ combos:
 - p: [35, 36]
   k: '>'
   l: [Layer 3]
+- p: [46, 47]
+  k: '%'
+  l: [Enthium, Number]
 - p: [47, 48]
   k: {h: '[', s: '{'}
   l: [Enthium, Number]
