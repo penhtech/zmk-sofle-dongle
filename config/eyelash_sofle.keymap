@@ -222,14 +222,22 @@ ZMK_TAP_DANCE(undo_redo, bindings = <&undo>, <&redo>;
     };
 
     behaviors {
-        // Hold-Tap behavior: Hold for 'q', tap for 'qu_q'
+        // Mod-morph to pick the right macro when Shifted
+        qu_morph: qu_morph {
+            compatible = "zmk,behavior-mod-morph";
+            #binding-cells = <0>;
+            bindings = <&qu_q>, <&qu_cap>;
+            mods = <(MOD_LSFT|MOD_RSFT)>;
+        };
+
+        // Hold-Tap behavior: Hold for 'q', tap for 'q'
         qu_q_holdtap: qu_q_holdtap {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "tap-preferred"; 
-            tapping-term-ms = <200>; 
+            tapping-term-ms = <250>; 
             quick-tap-ms = <0>;
-            bindings = <&kp>,<&qu_q>;
+            bindings = <&kp>,<&qu_morph>;
         };
     };
 
