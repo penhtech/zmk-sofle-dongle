@@ -50,16 +50,17 @@ ZMK_MACRO(undo, bindings = <&kp LC(Z)>;)
 ZMK_MACRO(redo, bindings = <&kp LC(LS(Z))>;)
 
 // qu - q
-ZMK_MACRO(qu_q, bindings = <&kp Q &kp U>;) 
+ZMK_MACRO(qu_q, bindings = <&kp Q &kp U>;)
 ZMK_MACRO(qu_cap,
     bindings =
-        <&macro_press &kp LSHFT>,
-        <&macro_tap &kp Q>,
-        <&macro_release &kp LSHFT>,
+        <&macro_tap &kp LS(Q)>,
+        <&macro_release &kp LSHFT &kp RSHFT>,
         <&macro_tap &kp U>;
-    wait-ms = <0>;
-    tap-ms = <5>;
 )
+// Common actions
+ZMK_MACRO(select_all,             bindings = <&kp LG(A)>;) 
+ZMK_MACRO(find,                   bindings = <&kp LG(F)>;) 
+ZMK_MACRO(find_all,               bindings = <&kp LG(LS(F))>;) 
 ZMK_MACRO(new_file,               bindings = <&kp LG(N)>;)
 ZMK_MACRO(new_tab,                bindings = <&kp LG(T)>;)
 ZMK_MACRO(new_private_tab,        bindings = <&kp LG(LS(N))>;) 
