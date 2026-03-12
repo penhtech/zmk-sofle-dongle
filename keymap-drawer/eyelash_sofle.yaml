@@ -279,6 +279,12 @@ combos:
 - p: [42, 43]
   k: Sft+INS
   l: [Enthium, Nav, Number]
+- p: [40, 43]
+  k: {t: '$$mdi:backup-restore$$', type: bootloader}
+  l: [System]
+- p: [42, 43]
+  k: $$mdi:progress-download$$
+  l: [System]
 - p: [21, 22]
   k: {t: '$$mdi:backspace$$', type: backspace}
   l: [Enthium, Nav, Number]
@@ -315,6 +321,12 @@ combos:
 - p: [48, 49]
   k: '}'
   l: [Nav]
+- p: [50, 47]
+  k: {t: '$$mdi:backup-restore$$', type: bootloader}
+  l: [System]
+- p: [48, 47]
+  k: $$mdi:progress-download$$
+  l: [System]
 - p: [15, 28]
   k: '@'
   l: [Enthium, Nav, Number]
