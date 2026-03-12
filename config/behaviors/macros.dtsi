@@ -3,16 +3,16 @@
 #include <zmk-helpers/helper.h>
 
 // Switch Language
-// ZMK_MACRO(kn_en, bindings = <&kp LA(LG(SPACE))>;)
+// ZMK_MACRO(kn_en, bindings = <&kp LA(LC(SPACE))>;)
 
 // Navigation
 ZMK_MACRO(next_desk, bindings = <&kp LC(RIGHT) >;)
 ZMK_MACRO(prev_desk, bindings = <&kp LC(LEFT)>;)
 
 // Zoom
-ZMK_MACRO(zoom_out, bindings = <&kp LG(MINUS)>;)
-ZMK_MACRO(zoom_in,  bindings = <&kp LG(EQUAL)>;)
-ZMK_MACRO(zoom_reset,  bindings = <&kp LG(N0)>;)
+ZMK_MACRO(zoom_out, bindings = <&kp LC(MINUS)>;)
+ZMK_MACRO(zoom_in,  bindings = <&kp LC(EQUAL)>;)
+ZMK_MACRO(zoom_reset,  bindings = <&kp LC(N0)>;)
 
 // Windows Management - Half
 ZMK_MACRO(w_hleft, bindings = <&kp LC(LA(LEFT))>;)
@@ -38,12 +38,12 @@ ZMK_MACRO(w_ttr, bindings = <&kp LC(LA(T))>;)
 ZMK_MACRO(w_full, bindings = <&kp LC(LA(ENTER))>;)
 
 // Screenshots
-ZMK_MACRO(ss_zone, bindings = <&kp LG(LS(N2))>;) 
-ZMK_MACRO(ss_mc_zone, bindings = <&kp LG(LS(N4))>;)
+ZMK_MACRO(ss_window, bindings = <&kp LALT(PSCRN)>;) 
+ZMK_MACRO(ss_area, bindings = <&kp LSHFT(PSCRN)>;)
 
 // Close windows
-ZMK_MACRO(close_win, bindings = <&kp LG(W)>;) 
-ZMK_MACRO(close_app, bindings = <&kp LG(Q)>;)
+ZMK_MACRO(close_win, bindings = <&kp LC(W)>;) 
+ZMK_MACRO(close_app, bindings = <&kp LC(Q)>;)
 
 // Undo Redo
 ZMK_MACRO(undo, bindings = <&kp LC(Z)>;) 
@@ -58,13 +58,13 @@ ZMK_MACRO(qu_cap,
         <&macro_tap &kp U>;
 )
 // Common actions
-ZMK_MACRO(select_all,             bindings = <&kp LG(A)>;) 
-ZMK_MACRO(find,                   bindings = <&kp LG(F)>;) 
-ZMK_MACRO(find_all,               bindings = <&kp LG(LS(F))>;) 
-ZMK_MACRO(new_file,               bindings = <&kp LG(N)>;)
-ZMK_MACRO(new_tab,                bindings = <&kp LG(T)>;)
-ZMK_MACRO(new_private_tab,        bindings = <&kp LG(LS(N))>;) 
-ZMK_MACRO(save_file,              bindings = <&kp LG(S)>;)
-ZMK_MACRO(refresh,                bindings = <&kp LG(R)>;)
-ZMK_MACRO(select_nxt_word,        bindings = <&kp LG(D)>;)
-ZMK_MACRO(quick_cmd_tab,          bindings = <&kp LG(TAB)>;)
+ZMK_MACRO(select_all,             bindings = <&kp LC(A)>;) 
+ZMK_MACRO(find,                   bindings = <&kp LC(F)>;) 
+ZMK_MACRO(find_all,               bindings = <&kp LC(LS(F))>;) 
+ZMK_MACRO(new_file,               bindings = <&kp LC(N)>;)
+ZMK_MACRO(new_tab,                bindings = <&kp LC(T)>;)
+ZMK_MACRO(restore_tab,            bindings = <&kp LC(LS(N))>;) 
+ZMK_MACRO(save_file,              bindings = <&kp LC(S)>;)
+ZMK_MACRO(refresh,                bindings = <&kp LC(R)>;)
+ZMK_MACRO(next_match,             bindings = <&kp LC(D)>;)
+ZMK_MACRO(ctrl_tab,               bindings = <&kp LC(TAB)>;)
