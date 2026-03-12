@@ -55,8 +55,7 @@ ZMK_MACRO(qu_cap,
     bindings =
         <&macro_press &kp LSHFT>,
         <&macro_tap &kp Q>,
-        <&macro_release &kp LSHFT>,
-        <&macro_release &kp RSHFT>,
+        <&macro_release &kp LSHFT &kp RSHFT>,
         <&macro_tap &kp U>;
     wait-ms = <0>;
     tap-ms = <5>;
