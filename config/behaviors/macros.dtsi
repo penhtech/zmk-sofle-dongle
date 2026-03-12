@@ -38,8 +38,8 @@ ZMK_MACRO(w_ttr, bindings = <&kp LC(LA(T))>;)
 ZMK_MACRO(w_full, bindings = <&kp LC(LA(ENTER))>;)
 
 // Screenshots
-ZMK_MACRO(ss_window, bindings = <&kp LALT(PSCRN)>;) 
-ZMK_MACRO(ss_area, bindings = <&kp LSHFT(PSCRN)>;)
+ZMK_MACRO(ss_window, bindings = <&kp LA(PSCRN)>;) 
+ZMK_MACRO(ss_area, bindings = <&kp LS(PSCRN)>;)
 
 // Close windows
 ZMK_MACRO(close_win, bindings = <&kp LC(W)>;) 
