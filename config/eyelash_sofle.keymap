@@ -260,11 +260,11 @@ ZMK_TAP_DANCE(undo_redo, bindings = <&undo>, <&redo>;
 
         layer_1 {
             bindings = <
-&trans      &trans      &trans      &trans      &trans      &trans      &kp UP_ARROW          &none         &none     &none       &none       &none       &trans
-&trans      &trans      &trans      &trans      &trans      &trans      &kp DOWN_ARROW        &comma_morph  &kp N7    &kp N8      &kp N9      &none       &trans
-&trans      &trans      &trans      &trans      &trans      &trans      &kp LEFT_ARROW        &kp TAB       &kp N4    &kp N5      &kp N6      &dot_morph  &none
-&trans      &trans      &trans      &trans      &trans      &trans      &kp RIGHT_ARROW       &kp ENTER     &kp N1    &kp N2      &kp N3      &none       &trans
-&trans      &trans      &trans      &trans      &trans      &trans      &kp ENTER             &trans        &kp N0    &bs_del     &trans      &trans
+&trans      &trans          &trans          &trans          &trans          &trans     &kp UP_ARROW          &none         &none     &none       &none       &none       &trans
+&trans      &none           &none           &none           &none           &trans     &kp DOWN_ARROW        &comma_morph  &kp N7    &kp N8      &kp N9      &none       &trans
+&none       &hml LGUI  0    &hml LALT 0     &hml LSHFT 0    &hmr LCTRL 0    &trans     &kp LEFT_ARROW        &kp TAB       &kp N4    &kp N5      &kp N6      &dot_morph  &none
+&trans      &trans          &comma_morph    &qexcl          &dot_morph      &trans     &kp RIGHT_ARROW       &kp ENTER     &kp N1    &kp N2      &kp N3      &none       &trans
+&trans      &trans          &trans          &trans          &trans          &trans     &kp ENTER             &trans        &kp N0    &bs_del     &trans      &trans
             >;
 
             display-name = "Number";
