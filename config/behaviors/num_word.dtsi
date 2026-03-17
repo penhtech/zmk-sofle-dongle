@@ -6,7 +6,7 @@
         num_word: num_word {
             compatible = "zmk,behavior-auto-layer";
             #binding-cells = <1>;
-            continue-list = <BSPC DEL KP_DOT COMMA KP_PLUS KP_MINUS KP_MULTIPLY KP_DIVIDE KP_EQUAL DLLR SFT TAB RET ENTER LESS_THAN GREATER_THAN COLON>;
+            continue-list = <BSPC DEL KP_DOT COMMA KP_PLUS KP_MINUS KP_MULTIPLY KP_DIVIDE KP_EQUAL DLLR KP_RA(N5) TAB RET ENTER LESS_THAN GREATER_THAN COLON>;
             ignore-numbers;
         };
     };
