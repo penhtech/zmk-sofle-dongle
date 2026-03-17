@@ -125,7 +125,7 @@ layers:
   - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - ENTER
-  - {t: '$$mdi:transfer$$', type: trans}
+  - ENTER
   - {t: '0', s: )}
   - {t: '$$mdi:backspace$$', s: '$$mdi:backspace-reverse-outline$$'}
   - {t: '$$mdi:transfer$$', type: trans}
