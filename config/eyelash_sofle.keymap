@@ -149,8 +149,11 @@ ZMK_MOD_MORPH(bs_del, bindings = <&kp BSPC>, <&kp DEL>;
               mods = <(MOD_LSFT|MOD_RSFT)>; keep-mods = <MOD_RSFT>;)
 
 // Tap: Undo | Double-tap: Redo
-ZMK_TAP_DANCE(undo_redo, bindings = <&undo>, <&redo>;
-              tapping-term-ms = <300>;)
+// ZMK_TAP_DANCE(undo_redo, bindings = <&undo>, <&redo>;
+//               tapping-term-ms = <300>;)
+
+// Tap: Undo | Shift-tap: Redo
+SIMPLE_MORPH(undo_redo, SFT, &undo, &redo)
 
 // Sticky shift + leader.
 // ZMK_MACRO(leader_sft, bindings = <&sk LSHFT &leader>;)
