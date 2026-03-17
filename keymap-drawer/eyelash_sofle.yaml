@@ -197,11 +197,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   System:
   - ESC
-  - {h: '1', s: '$$mdi:bluetooth-connect$$'}
+  - {h: BT 1, s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '3', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '4', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '5', s: '$$mdi:bluetooth-connect$$'}
+  - {h: BT 3, s: '$$mdi:bluetooth-connect$$'}
+  - {h: BT 4, s: '$$mdi:bluetooth-connect$$'}
+  - {h: BT 5, s: '$$mdi:bluetooth-connect$$'}
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -271,13 +271,13 @@ combos:
   k: '&hml LS(LALT)TAB'
   l: [Enthium, Nav, Number]
 - p: [41, 43]
-  k: Ctl+X
+  k: Cut
   l: [Enthium, Nav, Number]
 - p: [41, 42]
-  k: Ctl+INS
+  k: Copy
   l: [Enthium, Nav, Number]
 - p: [42, 43]
-  k: Sft+INS
+  k: Paste
   l: [Enthium, Nav, Number]
 - p: [40, 43]
   k: {t: '$$mdi:backup-restore$$', type: bootloader}
