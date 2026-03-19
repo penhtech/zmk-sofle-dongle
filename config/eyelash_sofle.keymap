@@ -156,7 +156,7 @@ ZMK_MOD_MORPH(bs_del, bindings = <&kp BSPC>, <&kp DEL>;
 SIMPLE_MORPH(undo_redo, SFT, &undo, &redo)
 
 // Mod-morph to pick the right macro when Shifted
-SIMPLE_MORPH(qu_morph, (MOD_LSFT|MOD_RSFT), &qu_q, &qu_cap)
+ZMK_MOD_MORPH(qu_morph, bindings = <&qu_q>, <&qu_cap>; mods = <(MOD_LSFT|MOD_RSFT)>;)
 
 // Sticky shift + leader.
 // ZMK_MACRO(leader_sft, bindings = <&sk LSHFT &leader>;)
