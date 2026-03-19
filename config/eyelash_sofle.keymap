@@ -139,7 +139,7 @@ ZMK_MACRO(dot_spc, bindings = <&kp DOT &kp SPACE &sk LSHFT>; wait-ms = <0>;
 
 // Tap: qu | Shift + tap: Qu | Hold: q  
 ZMK_MOD_MORPH(qu_morph, bindings = <&qu_q>, <&qu_cap>; mods = <(MOD_LSFT|MOD_RSFT)>;)
-ZMK_HOLD_TAP(qu_q, bindings = <&mo>, <&qu_morph>; flavor = "tap-preferred";
+ZMK_HOLD_TAP(qu_q_holdtap, bindings = <&mo>, <&qu_morph>; flavor = "tap-preferred";
              tapping-term-ms = <300>; quick-tap-ms = <QUICK_TAP_MS>;)
 
 // ZMK_HOLD_TAP(qu_q, bindings = <&mo>, <&spc_morph>; flavor = "balanced";
