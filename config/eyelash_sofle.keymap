@@ -139,14 +139,8 @@ ZMK_MACRO(dot_spc, bindings = <&kp DOT &kp SPACE &sk LSHFT>; wait-ms = <0>;
 
 // Tap: qu | Shift + tap: Qu | Hold: q  
 ZMK_MOD_MORPH(qu_morph, bindings = <&qu_q>, <&qu_cap>; mods = <(MOD_LSFT|MOD_RSFT)>;)
-ZMK_HOLD_TAP(qu_q_holdtap, bindings = <&mo>, <&qu_morph>; flavor = "tap-preferred";
+ZMK_HOLD_TAP(qu_q_holdtap, bindings = <&kp>, <&qu_morph>; flavor = "tap-preferred";
              tapping-term-ms = <300>; quick-tap-ms = <QUICK_TAP_MS>;)
-
-// ZMK_HOLD_TAP(qu_q, bindings = <&mo>, <&spc_morph>; flavor = "balanced";
-//              tapping-term-ms = <300>; quick-tap-ms = <QUICK_TAP_MS>;)
-// SIMPLE_MORPH(spc_morph, SFT, &kp SPACE, &dot_spc)
-// ZMK_MACRO(dot_spc, bindings = <&kp DOT &kp SPACE &sk LSHFT>; wait-ms = <0>;
-//           tap-ms = <5>;)
 
 // Tap: backspace | Lshft + tap: delete | Rshft + tap: shift-delete. 
 ZMK_MOD_MORPH(bs_del, bindings = <&kp BSPC>, <&kp DEL>;
