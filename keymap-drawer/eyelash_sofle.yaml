@@ -40,7 +40,7 @@ layers:
   - {t: N, h: '$$mdi:apple-keyboard-option$$'}
   - {t: S, h: LGUI}
   - F
-  - '&lt 3'
+  - System
   - {t: '''', s: '"'}
   - {t: ',', s: ;}
   - {t: '?', s: '!'}
@@ -103,7 +103,7 @@ layers:
   - {t: '4', s: $}
   - {t: '5', s: '%'}
   - {t: '6', s: ^}
-  - {t: ., s: ':'}
+  - KP DOT
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -235,7 +235,7 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - '&soft_off'
   - $$mdi:progress-download$$
