@@ -6,7 +6,7 @@
 // ZMK_MACRO(kn_en, bindings = <&kp LA(LC(SPACE))>;)
 
 // Navigation
-ZMK_MACRO(next_desk, bindings = <&kp LC(RIGHT) >;)
+ZMK_MACRO(next_desk, bindings = <&kp LC(RIGHT)>;)
 ZMK_MACRO(prev_desk, bindings = <&kp LC(LEFT)>;)
 
 // Zoom
@@ -14,34 +14,34 @@ ZMK_MACRO(zoom_out, bindings = <&kp LC(MINUS)>;)
 ZMK_MACRO(zoom_in,  bindings = <&kp LC(EQUAL)>;)
 ZMK_MACRO(zoom_reset,  bindings = <&kp LC(N0)>;)
 
-// Windows Management - Half
+// Window Management - Half
 ZMK_MACRO(w_hleft, bindings = <&kp LC(LA(LEFT))>;)
 ZMK_MACRO(w_hright, bindings = <&kp LC(LA(RIGHT))>;)
 ZMK_MACRO(w_hcenter, bindings = <&kp LC(LA(DOWN))>;)
 
-// Windows Management - Quarter
+// Window Management - Quarter
 ZMK_MACRO(w_qtl, bindings = <&kp LC(LA(U))>;)
 ZMK_MACRO(w_qtr, bindings = <&kp LC(LA(I))>;)
 ZMK_MACRO(w_qbl, bindings = <&kp LC(LA(J))>;)
 ZMK_MACRO(w_qbr, bindings = <&kp LC(LA(K))>;)
 
-// Windows Management - Third
+// Window Management - Third
 ZMK_MACRO(w_tl, bindings = <&kp LC(LA(D))>;)
 ZMK_MACRO(w_tc, bindings = <&kp LC(LA(F))>;)
 ZMK_MACRO(w_tr, bindings = <&kp LC(LA(G))>;)
 
-// Windows Management - 2 Third
+// Window Management - 2 Third
 ZMK_MACRO(w_ttl, bindings = <&kp LC(LA(E))>;)
 ZMK_MACRO(w_ttr, bindings = <&kp LC(LA(T))>;)
 
-// Windows Management - Fullscreen
+// Window Management - Fullscreen
 ZMK_MACRO(w_full, bindings = <&kp LC(LA(ENTER))>;)
 
 // Screenshots
 ZMK_MACRO(ss_window, bindings = <&kp LA(PSCRN)>;) 
 ZMK_MACRO(ss_area, bindings = <&kp LS(PSCRN)>;)
 
-// Close windows
+// Close window
 ZMK_MACRO(close_win, bindings = <&kp LC(W)>;) 
 ZMK_MACRO(close_app, bindings = <&kp LC(Q)>;)
 

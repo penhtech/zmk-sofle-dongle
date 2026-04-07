@@ -153,10 +153,10 @@ ZMK_MOD_MORPH(bs_del, bindings = <&kp BSPC>, <&kp DEL>;
 // Tap: Undo | Shift-tap: Redo
 SIMPLE_MORPH(undo_redo, SFT, &undo, &redo)
 
-// Sticky shift + leader.
+// Sticky shift + leader
 // ZMK_MACRO(leader_sft, bindings = <&sk LSHFT &leader>;)
 
-// Misc aliases. [TODO: clean up]
+// Misc aliases
 #define CANCEL    &kp K_CANCEL            // Cancel caps-word & auto-layers.
 // #define DSK_PREV  &hmr LCTRL LG(LC(LEFT)) // Previous desktop.
 // #define DSK_NEXT  &hmr LALT LG(LC(RIGHT)) // Next     desktop.
@@ -233,9 +233,9 @@ SIMPLE_MORPH(undo_redo, SFT, &undo, &redo)
             bindings = <
 &kp ESC     &kp N1            &kp N2         &kp N3         &kp N4          &kp N5          &kp UP_ARROW     &kp N6           &kp N7          &kp N8         &kp N9             &kp N0       &kp KP_NUMLOCK
 &kp TAB     &qu_q_holdtap Q 0 &kp Y          &kp O          &kp U           &cp_pst_cut     &kp DOWN_ARROW   &kp X            &kp L           &kp D          &kp W              &kp Z        &kp DELETE
-&kp B       &hml LGUI  C      &hml LALT I    &hml LSHFT A   &hmr LCTRL E    &kp MINUS       &kp LEFT_ARROW   &kp K            &hmr LCTRL H    &hmr LSHFT T   &hmr RALT N        &hmr LGUI S  &kp F
-&mo 3       &kp SQT           &comma_morph   &qexcl         &dot_morph      SMART_NUM       &kp RIGHT_ARROW  &kp J            &kp M           &kp G          &kp P              &kp V        &mo 2
-&kp C_MUTE  &kp HOME          &kp END        &undo_redo     &lt_spc NUM 0   &lt NAV RET     &kp ENTER        MAGIC_SHIFT      &kp R           &bs_del        &kp PG_UP          &kp PG_DN 
+&kp B       &hml LGUI  C      &hml LALT I    &hml LSHFT A   &hmr LCTRL E    &kp MINUS       &kp LEFT_ARROW   &kp K            &hmr LCTRL H    &hmr LSHFT T   &hmr LALT N        &hmr LGUI S  &kp F
+&mo 3       &kp SQT           &comma_morph   &qexcl         &dot_morph      SMART_NUM       &kp RIGHT_ARROW  &kp J            &kp M           &kp G          &kp P              &kp V        &mo 2e
+&kp C_MUTE  &kp HOME          &kp END        &undo_redo     &lt_spc NUM 0   &lt NAV RET     &kp ENTER        MAGIC_SHIFT      &kp R           &bs_del        &kp PG_DN          &kp PG_UP
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -247,7 +247,7 @@ SIMPLE_MORPH(undo_redo, SFT, &undo, &redo)
             bindings = <
 &trans      &trans          &trans          &trans          &trans          &trans     &kp UP_ARROW          &none         &none     &none       &none       &none       &trans
 &trans      &none           &none           &none           &none           &trans     &kp DOWN_ARROW        &comma_morph  &kp N7    &kp N8      &kp N9      &none       &trans
-&none       &hml LGUI  0    &hml LALT 0     &hml LSHFT 0    &hmr LCTRL 0    &trans     &kp LEFT_ARROW        &kp TAB       &kp N4    &kp N5      &kp N6      &kp KP_DOT  &none
+&none       &hml LGUI  0    &hml LALT 0     &hml LSHFT 0    &hmr LCTRL 0    &trans     &kp LEFT_ARROW        &kp TAB       &kp N4    &kp N5      &kp N6      &dot_morph  &none
 &trans      &trans          &comma_morph    &qexcl          &dot_morph      &trans     &kp RIGHT_ARROW       &kp ENTER     &kp N1    &kp N2      &kp N3      &none       &trans
 &trans      &trans          &trans          &trans          &trans          &trans     &kp ENTER             &trans        &kp N0    &bs_del     &trans      &trans
             >;
