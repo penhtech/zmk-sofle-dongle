@@ -263,37 +263,37 @@ layers:
 combos:
 - p: [15, 16]
   k: ESC
-  l: [Enthium, Nav, Number]
+  l: [Enthium, Number, Nav]
 - p: [16, 17]
   k: '&smart_mouse'
-  l: [Enthium, Nav, Number]
+  l: [Enthium, Number, Nav]
 - p: [28, 29]
   k: '&hml LS(LALT)TAB'
-  l: [Enthium, Nav, Number]
+  l: [Enthium, Number, Nav]
 - p: [41, 43]
   k: Cut
-  l: [Enthium, Nav, Number]
+  l: [Enthium, Number, Nav]
 - p: [41, 42]
   k: Copy
-  l: [Enthium, Nav, Number]
+  l: [Enthium, Number, Nav]
 - p: [42, 43]
   k: Paste
-  l: [Enthium, Nav, Number]
-- p: [40, 43]
+  l: [Enthium, Number, Nav]
+- p: [43, 40]
   k: {t: '$$mdi:backup-restore$$', type: bootloader}
   l: [System]
-- p: [42, 43]
+- p: [43, 42]
   k: $$mdi:progress-download$$
   l: [System]
-- p: [21, 22]
-  k: {t: '$$mdi:backspace$$', type: backspace}
-  l: [Enthium, Nav, Number]
-- p: [22, 23]
-  k: $$mdi:backspace-reverse-outline$$
-  l: [Enthium, Nav, Number]
 - p: [20, 21]
   k: {t: $, s: AltGr+5}
   l: [Enthium, Number]
+- p: [21, 22]
+  k: {t: '$$mdi:backspace$$', type: backspace}
+  l: [Enthium, Number, Nav]
+- p: [22, 23]
+  k: $$mdi:backspace-reverse-outline$$
+  l: [Enthium, Number, Nav]
 - p: [34, 35]
   k: {t: (, h: 'Sft+$$mdi:apple-keyboard-control$$', s: <}
   l: [Enthium, Number]
@@ -306,72 +306,72 @@ combos:
 - p: [35, 36]
   k: '>'
   l: [Nav]
-- p: [20, 21]
+- p: [46, 47]
   k: '%'
   l: [Enthium, Number]
 - p: [47, 48]
   k: {h: '[', s: '{'}
   l: [Enthium, Number]
-- p: [48, 49]
-  k: {h: ']', s: '}'}
-  l: [Enthium, Number]
 - p: [47, 48]
   k: '{'
   l: [Nav]
 - p: [48, 49]
+  k: {h: ']', s: '}'}
+  l: [Enthium, Number]
+- p: [48, 49]
   k: '}'
   l: [Nav]
-- p: [50, 47]
+- p: [47, 50]
   k: {t: '$$mdi:backup-restore$$', type: bootloader}
   l: [System]
-- p: [48, 47]
+- p: [47, 48]
   k: $$mdi:progress-download$$
   l: [System]
 - p: [15, 28]
   k: '@'
-  l: [Enthium, Nav, Number]
+  l: [Enthium, Number, Nav]
 - p: [16, 29]
   k: '#'
-  l: [Enthium, Nav, Number]
+  l: [Enthium, Number, Nav]
 - p: [17, 30]
   k: {t: $, s: AltGr+5}
-  l: [Enthium, Nav, Number]
+  l: [Enthium, Number, Nav]
 - p: [18, 31]
   k: '%'
-  l: [Enthium, Nav, Number]
+  l: [Enthium, Number, Nav]
 - p: [28, 41]
   k: {t: '`', s: '~'}
-  l: [Enthium, Nav, Number]
+  l: [Enthium, Number, Nav]
 - p: [29, 42]
   k: {t: \, s: '|'}
-  l: [Enthium, Nav, Number]
+  l: [Enthium, Number, Nav]
 - p: [30, 43]
   k: '&'
-  l: [Enthium, Nav, Number]
+  l: [Enthium, Number, Nav]
 - p: [31, 44]
   k: '~'
-  l: [Enthium, Nav, Number]
+  l: [Enthium, Number, Nav]
 - p: [20, 33]
   k: ^
-  l: [Enthium, Nav, Number]
+  l: [Enthium, Number, Nav]
 - p: [21, 34]
   k: +
-  l: [Enthium, Nav, Number]
+  l: [Enthium, Number, Nav]
 - p: [22, 35]
   k: '*'
-  l: [Enthium, Nav, Number]
+  l: [Enthium, Number, Nav]
 - p: [23, 36]
   k: {h: '=', s: +}
-  l: [Enthium, Nav, Number]
+  l: [Enthium, Number, Nav]
 - p: [33, 46]
   k: _
-  l: [Enthium, Nav, Number]
+  l: [Enthium, Number, Nav]
 - p: [34, 47]
   k: {h: '-', s: _}
-  l: [Enthium, Nav, Number]
+  l: [Enthium, Number, Nav]
 - p: [35, 48]
   k: {t: /, s: '?'}
-  l: [Enthium, Nav, Number]
+  l: [Enthium, Number, Nav]
 - p: [36, 49]
   k: '|'
-  l: [Enthium, Nav, Number]
+  l: [Enthium, Number, Nav]
