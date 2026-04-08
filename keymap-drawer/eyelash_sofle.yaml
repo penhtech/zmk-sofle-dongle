@@ -270,12 +270,6 @@ combos:
 - p: [28, 29]
   k: '&hml LS(LALT)TAB'
   l: [Enthium, Number, Nav]
-- p: [29, 30]
-  k: {t: '&leader', h: 'Sft+$$mdi:apple-keyboard-control$$'}
-  l: [Enthium, Number, Nav]
-- p: [28, 29, 30]
-  k: {t: '&leader_sft', h: '$$mdi:star-three-points$$'}
-  l: [Enthium, Number, Nav]
 - p: [41, 43]
   k: Cut
   l: [Enthium, Number, Nav]
