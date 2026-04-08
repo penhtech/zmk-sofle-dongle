@@ -43,10 +43,6 @@ ZMK_COMBO(cut,   &kp LC(X),    LB3 LB1,     DEF NUM NAV    , COMBO_TERM_FAST, CO
 ZMK_COMBO(copy,  &kp LC(INS),  LB3 LB2,     DEF NUM NAV    , COMBO_TERM_FAST, COMBO_IDLE_FAST)
 ZMK_COMBO(paste, &kp LS(INS),  LB2 LB1,     DEF NUM NAV    , COMBO_TERM_FAST, COMBO_IDLE_FAST)
 
-// Dongle resets
-ZMK_COMBO(cent_reset, &sys_reset,  LB1 LB4,             SYS, COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
-ZMK_COMBO(cent_boot, &bootloader,  LB1 LB2,             SYS, COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
-
 /* Horizontal combos - right hand */
 ZMK_COMBO(dllr,  &dllr_eur,    RT0 RT1,     DEF NUM    , COMBO_TERM_FAST, COMBO_IDLE_FAST) 
 ZMK_COMBO(bspc,  &kp BSPC,     RT1 RT2,     DEF NUM NAV    , COMBO_TERM_FAST, COMBO_IDLE_FAST)
@@ -63,9 +59,6 @@ ZMK_COMBO(lbrc,  &kp LBRC,     RB1 RB2,             NAV, COMBO_TERM_FAST, COMBO_
 ZMK_COMBO(rbkt,  &kp RBKT,     RB2 RB3,     DEF NUM    , COMBO_TERM_FAST, COMBO_IDLE_FAST)
 ZMK_COMBO(rbrc,  &kp RBRC,     RB2 RB3,             NAV, COMBO_TERM_FAST, COMBO_IDLE_FAST)
 
-// Dongle resets
-ZMK_COMBO(cent_reset, &sys_reset,  RB1 RB4,             SYS, COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
-ZMK_COMBO(cent_boot, &bootloader,  RB1 RB2,             SYS, COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
 
 /* Vertical combos - left hand */
 ZMK_COMBO(at,    &kp AT,       LT3 LM3,     DEF NUM NAV    , COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
@@ -88,3 +81,10 @@ ZMK_COMBO(under, &kp UNDER,    RM0 RB0,     DEF NUM NAV    , COMBO_TERM_SLOW, CO
 ZMK_COMBO(minus, &kp MINUS,    RM1 RB1,     DEF NUM NAV    , COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
 ZMK_COMBO(fslh,  &kp FSLH,     RM2 RB2,     DEF NUM NAV    , COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
 ZMK_COMBO(pipe,  &kp PIPE,     RM3 RB3,     DEF NUM NAV    , COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
+
+
+// Dongle resets
+ZMK_COMBO(cent_reset, &sys_reset,  LB1 LB4,             SYS, COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
+ZMK_COMBO(cent_boot, &bootloader,  LB1 LB2,             SYS, COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
+ZMK_COMBO(cent_reset, &sys_reset,  RB1 RB4,             SYS, COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
+ZMK_COMBO(cent_boot, &bootloader,  RB1 RB2,             SYS, COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
