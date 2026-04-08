@@ -270,6 +270,12 @@ combos:
 - p: [28, 29]
   k: '&hml LS(LALT)TAB'
   l: [Enthium, Number, Nav]
+- p: [29, 30]
+  k: '&hm_combo_ldr LS(LCTRL) 0'
+  l: [Enthium, Number, Nav]
+- p: [28, 29, 30]
+  k: {t: '&leader_sft', h: '$$mdi:star-three-points$$'}
+  l: [Enthium, Number, Nav]
 - p: [41, 43]
   k: Cut
   l: [Enthium, Number, Nav]
@@ -279,12 +285,30 @@ combos:
 - p: [42, 43]
   k: Paste
   l: [Enthium, Number, Nav]
-- p: [43, 40]
-  k: {t: '$$mdi:backup-restore$$', type: bootloader}
-  l: [System]
-- p: [43, 42]
-  k: $$mdi:progress-download$$
-  l: [System]
+- p: [15, 28]
+  k: '@'
+  l: [Enthium, Number, Nav]
+- p: [16, 29]
+  k: '#'
+  l: [Enthium, Number, Nav]
+- p: [17, 30]
+  k: {t: $, s: AltGr+5}
+  l: [Enthium, Number, Nav]
+- p: [18, 31]
+  k: '%'
+  l: [Enthium, Number, Nav]
+- p: [28, 41]
+  k: {t: '`', s: '~'}
+  l: [Enthium, Number, Nav]
+- p: [29, 42]
+  k: {t: \, s: '|'}
+  l: [Enthium, Number, Nav]
+- p: [30, 43]
+  k: '&'
+  l: [Enthium, Number, Nav]
+- p: [31, 44]
+  k: '~'
+  l: [Enthium, Number, Nav]
 - p: [20, 21]
   k: {t: $, s: AltGr+5}
   l: [Enthium, Number]
@@ -321,36 +345,6 @@ combos:
 - p: [48, 49]
   k: '}'
   l: [Nav]
-- p: [47, 50]
-  k: {t: '$$mdi:backup-restore$$', type: bootloader}
-  l: [System]
-- p: [47, 48]
-  k: $$mdi:progress-download$$
-  l: [System]
-- p: [15, 28]
-  k: '@'
-  l: [Enthium, Number, Nav]
-- p: [16, 29]
-  k: '#'
-  l: [Enthium, Number, Nav]
-- p: [17, 30]
-  k: {t: $, s: AltGr+5}
-  l: [Enthium, Number, Nav]
-- p: [18, 31]
-  k: '%'
-  l: [Enthium, Number, Nav]
-- p: [28, 41]
-  k: {t: '`', s: '~'}
-  l: [Enthium, Number, Nav]
-- p: [29, 42]
-  k: {t: \, s: '|'}
-  l: [Enthium, Number, Nav]
-- p: [30, 43]
-  k: '&'
-  l: [Enthium, Number, Nav]
-- p: [31, 44]
-  k: '~'
-  l: [Enthium, Number, Nav]
 - p: [20, 33]
   k: ^
   l: [Enthium, Number, Nav]
@@ -375,3 +369,15 @@ combos:
 - p: [36, 49]
   k: '|'
   l: [Enthium, Number, Nav]
+- p: [40, 39]
+  k: {t: '$$mdi:backup-restore$$', type: bootloader}
+  l: [System]
+- p: [43, 42]
+  k: $$mdi:progress-download$$
+  l: [System]
+- p: [50, 51]
+  k: {t: '$$mdi:backup-restore$$', type: bootloader}
+  l: [System]
+- p: [47, 48]
+  k: $$mdi:progress-download$$
+  l: [System]
