@@ -85,7 +85,7 @@ ZMK_COMBO(pipe,  &kp PIPE,     RM3 RB3,     DEF NUM NAV    , COMBO_TERM_SLOW, CO
 
 
 // Dongle resets
-ZMK_COMBO(cent_reset, &sys_reset,  LB4 LB5,             SYS, COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
-ZMK_COMBO(cent_boot, &bootloader,  LB1 LB2,             SYS, COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
-ZMK_COMBO(cent_reset, &sys_reset,  RB4 RB5,             SYS, COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
-ZMK_COMBO(cent_boot, &bootloader,  RB1 RB2,             SYS, COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
+ZMK_COMBO(cent_reset_l, &sys_reset,  LB1 LB0,             SYS, COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
+ZMK_COMBO(cent_boot_l, &bootloader,  LB2 LB1,             SYS, COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
+ZMK_COMBO(cent_reset_r, &sys_reset,  RB0 RB1,             SYS, COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
+ZMK_COMBO(cent_boot_r, &bootloader,  RB1 RB2,             SYS, COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
