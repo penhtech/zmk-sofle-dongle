@@ -363,13 +363,13 @@ combos:
 - p: [36, 49]
   k: '|'
   l: [Enthium, Number, Nav]
-- p: [40, 39]
+- p: [43, 44]
   k: {t: '$$mdi:backup-restore$$', type: bootloader}
   l: [System]
-- p: [43, 42]
+- p: [42, 43]
   k: $$mdi:progress-download$$
   l: [System]
-- p: [50, 51]
+- p: [46, 47]
   k: {t: '$$mdi:backup-restore$$', type: bootloader}
   l: [System]
 - p: [47, 48]
