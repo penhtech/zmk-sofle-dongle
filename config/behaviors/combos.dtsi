@@ -88,4 +88,4 @@ ZMK_COMBO(pipe,  &kp PIPE,     RM3 RB3,     DEF NUM NAV    , COMBO_TERM_SLOW, CO
 ZMK_COMBO(cent_reset, &sys_reset,  LB4 LB5,             SYS, COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
 ZMK_COMBO(cent_boot, &bootloader,  LB1 LB2,             SYS, COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
 ZMK_COMBO(cent_reset, &sys_reset,  RB4 RB5,             SYS, COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
-ZMK_COMBO(cent_boot, &bootloader,  RB1 RB2,             SYS, COMBO_TERM_SLOW, COMBO_IDLE_SLOW)s
+ZMK_COMBO(cent_boot, &bootloader,  RB1 RB2,             SYS, COMBO_TERM_SLOW, COMBO_IDLE_SLOW)
