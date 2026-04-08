@@ -36,8 +36,8 @@ ZMK_COMBO(mouse, &smart_mouse, LT2 LT1,     DEF NUM NAV    , COMBO_TERM_FAST, CO
 // chording of mods. Custom hold-tap instances can be bootstrapped on the go using the
 // 8-argument version of ZMK_COMBO defined in eyelash_sofle.keymap.
 ZMK_COMBO(tab,   &hml LS(LALT)TAB, LM3 LM2, DEF NUM NAV    , COMBO_TERM_FAST, COMBO_IDLE_FAST)
-ZMK_COMBO(ldr,   &leader,      LM2 LM1,     DEF NUM NAV    , COMBO_TERM_FAST, COMBO_IDLE_FAST, LS(LCTRL),    KEYS_R)
-ZMK_COMBO(ldrsh, &leader_sft,  LM3 LM2 LM1, DEF NUM NAV    , COMBO_TERM_FAST, COMBO_IDLE_FAST, LS(LC(LALT)), KEYS_R)
+// ZMK_COMBO(ldr,   &leader,      LM2 LM1,     DEF NUM NAV    , COMBO_TERM_FAST, COMBO_IDLE_FAST, LS(LCTRL),    KEYS_R)
+// ZMK_COMBO(ldrsh, &leader_sft,  LM3 LM2 LM1, DEF NUM NAV    , COMBO_TERM_FAST, COMBO_IDLE_FAST, LS(LC(LALT)), KEYS_R)
 ZMK_COMBO(cut,   &kp LC(X),    LB3 LB1,     DEF NUM NAV    , COMBO_TERM_FAST, COMBO_IDLE_FAST)
 ZMK_COMBO(copy,  &kp LC(INS),  LB3 LB2,     DEF NUM NAV    , COMBO_TERM_FAST, COMBO_IDLE_FAST)
 ZMK_COMBO(paste, &kp LS(INS),  LB2 LB1,     DEF NUM NAV    , COMBO_TERM_FAST, COMBO_IDLE_FAST)
