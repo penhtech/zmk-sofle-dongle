@@ -231,11 +231,11 @@ SIMPLE_MORPH(undo_redo, SFT, &undo, &redo)
 
         layer0 {
             bindings = <
-&kp ESC     &kp N1            &kp N2         &kp N3         &kp N4          &kp N5          &kp UP_ARROW     &kp N6           &kp N7          &kp N8         &kp N9             &kp N0       &kp KP_NUMLOCK
-&kp TAB     &qu_q_holdtap Q 0 &kp Y          &kp O          &kp U           &cp_pst_cut     &kp DOWN_ARROW   &kp X            &kp L           &kp D          &kp W              &kp Z        &kp DELETE
-&kp B       &hml LGUI  C      &hml LALT I    &hml LSHFT A   &hmr LCTRL E    &kp MINUS       &kp LEFT_ARROW   &kp K            &hmr LCTRL H    &hmr LSHFT T   &hmr LALT N        &hmr LGUI S  &kp F
-&mo SYS     &kp SQT           &comma_morph   &qexcl         &dot_morph      SMART_NUM       &kp RIGHT_ARROW  &kp J            &kp M           &kp G          &kp P              &kp V        &tog NUM
-&kp C_MUTE  &kp HOME          &kp END        &undo_redo     &lt_spc NUM 0   &lt NAV RET     &kp ENTER        MAGIC_SHIFT      &kp R           &bs_del        &kp PG_DN          &kp PG_UP
+&kp ESC     &kp N1            &kp N2            &kp N3         &kp N4          &kp N5           &kp UP_ARROW     &kp N6           &kp N7            &kp N8         &kp N9           &kp N0          &kp KP_NUMLOCK
+&kp TAB     &qu_q_holdtap Q 0 &kp Y             &kp O          &kp U           &cp_pst_cut      &kp DOWN_ARROW   &kp X            &kp L             &kp D          &kp W            &kp Z           &kp DELETE
+&kp B       &hml LGUI  C      &hml LALT I       &hml LSHFT A   &hmr LCTRL E    &kp MINUS        &kp LEFT_ARROW   &kp K            &hmr LCTRL H      &hmr LSHFT T   &hmr LALT N      &hmr LGUI S     &kp F
+&mo SYS     &kp SQT           &comma_morph      &qexcl         &dot_morph      SMART_NUM        &kp RIGHT_ARROW  &kp J            &kp M             &kp G          &kp P            &kp V           &tog NUM
+&kp C_MUTE  &kp HOME          &kp END           &undo_redo     &lt_spc NUM 0   &lt NAV RET      &kp ENTER        MAGIC_SHIFT      &kp R             &bs_del        &kp PG_DN        &kp PG_UP
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -245,11 +245,11 @@ SIMPLE_MORPH(undo_redo, SFT, &undo, &redo)
 
         layer_1 {
             bindings = <
-&trans      &none           &none           &none           &none           &none           &kp UP_ARROW     &none         &none     &none       &none       &none       &trans
-&trans      &none           &kp N7          &kp N8          &kp N9          &comma_morph    &kp DOWN_ARROW   &comma_morph  &kp N7    &kp N8      &kp N9      &none       &trans
-&none       &dot_morph      &kp N4          &kp N5          &kp N6          &kp TAB         &kp LEFT_ARROW   &kp TAB       &kp N4    &kp N5      &kp N6      &dot_morph  &none
-&none       &none           &kp N1          &kp N2          &kp N3          &kp ENTER       &kp RIGHT_ARROW  &kp ENTER     &kp N1    &kp N2      &kp N3      &none       &none
-&trans      &kp HOME        &kp END         &undo_redo      &kp N0          &kp SPACE       &kp ENTER        &trans        &kp N0    &bs_del     &trans      &trans
+&trans      &none               &none           &none           &none           &none           &kp UP_ARROW     &none             &none            &none           &none           &none          &trans
+&trans      &none               &kp N7          &kp N8          &kp N9          &comma_morph    &kp DOWN_ARROW   &kp X             &kp N7           &kp N8          &kp N9          &none          &trans
+&none       &dot_morph          &kp N4          &kp N5          &kp N6          &kp TAB         &kp LEFT_ARROW   &kp TAB           &kp N4           &kp N5          &kp N6          &dot_morph     &none
+&none       &none               &kp N1          &kp N2          &kp N3          &kp ENTER       &kp RIGHT_ARROW  &kp ENTER         &kp N1           &kp N2          &kp N3          &comma_morph   &none
+&trans      &kp HOME            &kp END         &undo_redo      &kp N0          &kp SPACE       &kp ENTER        trans             &kp N0           &bs_del         &trans          &trans
             >;
 
             display-name = "Number";
@@ -258,11 +258,11 @@ SIMPLE_MORPH(undo_redo, SFT, &undo, &redo)
 
         layer_2 {
             bindings = <
-&none       &kp F1              &kp F2          &kp F3           &kp F4           &kp F5             &mmv MOVE_UP      &kp F6           &kp F7         &kp F8      &kp F9     &kp F10    &kp F11
-&none       &kp GRAVE           &none           &none            &none            &mkp MB4           &mmv MOVE_DOWN    &kp PG_UP        &kp END        &kp UP      &kp HOME   &kp MINUS  &kp F12
-&none       &kp TILDE           &mkp LCLK       &mkp MCLK        &mkp RCLK        &mkp MB5           &mmv MOVE_LEFT    &kp PG_DN        &kp LEFT       &kp DOWN    &kp RIGHT  &kp LBKT   &kp RBKT
-&none       &none               &none           &none            &none            &rgb_ug RGB_SPI    &mmv MOVE_RIGHT   &kp INSERT       &none          &none       &none      &none      &none
-&trans      &none               &none           &trans           &trans           &trans             &mkp LCLK         &trans           &trans         &trans      &trans     &trans    
+&none       &kp F1              &kp F2          &kp F3          &kp F4          &kp F5           &mmv MOVE_UP    &kp F6            &kp F7           &kp F8          &kp F9          &kp F10         &kp F11
+&none       &kp GRAVE           &none           &none           &none           &mkp MB4         &mmv MOVE_DOWN  &kp PG_UP         &kp END          &kp UP          &kp HOME        &kp MINUS       &kp F12
+&none       &kp TILDE           &mkp LCLK       &mkp MCLK       &mkp RCLK       &mkp MB5         &mmv MOVE_LEFT  &kp PG_DN         &kp LEFT         &kp DOWN        &kp RIGHT       &kp LBKT        &kp RBKT
+&none       &none               &none           &none           &none           &rgb_ug RGB_SPI  &mmv MOVE_RIGHT &kp INSERT        &none            &none           &none           &none           &none
+&trans      &none               &none           &trans          &trans          &trans           &mkp LCLK       &trans            &trans           &trans          &trans          &trans    
             >;
 
             display-name = "Nav";
@@ -271,11 +271,11 @@ SIMPLE_MORPH(undo_redo, SFT, &undo, &redo)
 
         layer_3 {
             bindings = <
-&kp ESC     &bt BT_SEL 0     &bt BT_SEL 1       &bt BT_SEL 2   &bt BT_SEL 3     &bt BT_SEL 4       &mmv MOVE_UP       &none             &none           &none             &none             &none            &none
-&trans      &bt BT_CLR       &bt BT_CLR_ALL     &none          &none            &none              &mmv MOVE_DOWN     &rgb_ug RGB_OFF   &rgb_ug RGB_ON  &rgb_ug RGB_EFF   &rgb_ug RGB_EFR   &rgb_ug RGB_SPI  &none 
-&trans      &out OUT_USB     &out OUT_BLE       &none          &none            &none              &mmv MOVE_LEFT     &rgb_ug RGB_BRI   &rgb_ug RGB_BRD &none             &none             &none            &none 
-&trans      &sys_reset       &soft_off          &bootloader    &none            &none              &mmv MOVE_RIGHT    &none             &none           &bootloader       &soft_off         &sys_reset       &trans
-&trans      &none            &none              &trans         &trans           &trans             &mkp LCLK          &trans            &trans          &trans            &trans            &trans
+&kp ESC     &bt BT_SEL 0        &bt BT_SEL 1    &bt BT_SEL 2   &bt BT_SEL 3     &bt BT_SEL 4     &mmv MOVE_UP     &none             &none           &none           &none           &none            &none
+&trans      &bt BT_CLR          &bt BT_CLR_ALL  &none          &none            &none            &mmv MOVE_DOWN   &rgb_ug RGB_OFF   &rgb_ug RGB_ON  &rgb_ug RGB_EFF &rgb_ug RGB_EFR &rgb_ug RGB_SPI  &none 
+&trans      &out OUT_USB        &out OUT_BLE    &none          &none            &none            &mmv MOVE_LEFT   &rgb_ug RGB_BRI   &rgb_ug RGB_BRD &none           &none           &none            &none 
+&trans      &sys_reset          &soft_off       &bootloader    &none            &none            &mmv MOVE_RIGHT  &none             &none           &bootloader     &soft_off       &sys_reset       &trans
+&trans      &none               &none           &trans         &trans           &trans           &mkp LCLK        &trans            &trans          &trans          &trans          &trans
             >;
             display-name = "System";
             sensor-bindings = <&scroll_encoder>;
