@@ -1,4 +1,4 @@
-/* 60 KEY MATRIX with ENCODER and JOYSTICK / LAYOUT MAPPING
+/* 63 KEY MATRIX with ENCODER and JOYSTICK / LAYOUT MAPPING
 
 Based on Aliexpress variation of Sofle: https://github.com/a741725193/zmk-sofle 
 with encoder and 5-way switch/joystick
